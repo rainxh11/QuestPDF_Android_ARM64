@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PublishAot>true</PublishAot>
+    <NativeLib>Shared</NativeLib>
+    <AssemblyName>questpdf_android</AssemblyName>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <IsAotCompatible>true</IsAotCompatible>
+    <OptimizationPreference>Size</OptimizationPreference>
+    <DisableUnsupportedError Condition="$(RuntimeIdentifier.StartsWith('linux-bionic-'))">true</DisableUnsupportedError>
+    <PublishAotUsingRuntimePack Condition="$(RuntimeIdentifier.StartsWith('linux-bionic-'))">true</PublishAotUsingRuntimePack>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../../src/dotnet/library/QuestPDF/QuestPDF.csproj" />
+    <EmbeddedResource Include="Assets/*" LogicalName="assets.%(Filename)%(Extension)" />
+  </ItemGroup>
+  <ItemGroup Condition="$(RuntimeIdentifier.StartsWith('linux-bionic-'))">
+    <LinkerArg Include="-Wl,-z,max-page-size=16384" />
+    <LinkerArg Include="-Wl,-z,common-page-size=16384" />
+  </ItemGroup>
+</Project>

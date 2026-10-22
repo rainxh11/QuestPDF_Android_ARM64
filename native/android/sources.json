@@ -1,0 +1,5 @@
+{
+  "skia": { "url": "https://github.com/QuestPDF/QuestPDF.Native.Skia.git", "commit": "8fe4d00334fd3c5c3fca9edd785aa21bc8ae0d5b" },
+  "skia-build": { "url": "https://github.com/QuestPDF/QuestPDF.Native.Skia.Build.git", "commit": "6c67065ce773cf00dc334507719416f91d078fef" },
+  "qpdf": { "url": "https://github.com/QuestPDF/QuestPDF.Native.Qpdf.git", "commit": "962c3c4ff6b2c6a689b77dc00b36d81adea4ec1e" }
+}

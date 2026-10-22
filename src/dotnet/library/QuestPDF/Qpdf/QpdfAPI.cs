@@ -142,7 +142,13 @@ static class QpdfAPI
         public static extern void qpdfjob_cleanup(ref IntPtr jobHandle);
     
         [DllImport(LibraryName, CallingConvention = CallingConvention.Cdecl)]
-        public static extern int qpdfjob_initialize_from_json(IntPtr jobHandle, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(Utf8StringMarshaller))] string json);
+        public static extern int qpdfjob_initialize_from_json(IntPtr jobHandle,
+#if NET5_0_OR_GREATER
+            [MarshalAs(UnmanagedType.LPUTF8Str)]
+#else
+            [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(Utf8StringMarshaller))]
+#endif
+            string json);
 
         [DllImport(LibraryName, CallingConvention = CallingConvention.Cdecl)]
         public static extern IntPtr qpdfjob_create_qpdf(IntPtr jobHandle);

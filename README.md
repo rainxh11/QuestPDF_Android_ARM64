@@ -4,6 +4,12 @@
   <img src="https://github.com/user-attachments/assets/e9d197ee-0cad-44f0-9efa-80ad68c31abe" width="300">
 </picture>
 
+### Android support in this fork
+
+This fork adds Android ARM64 and x86-64 native builds, a .NET NativeAOT C ABI bridge,
+and a Flutter/pdfrx emulator test app. See the [native overview, implementation plan,
+build instructions and verification results](docs/android-arm64.md).
+
 <br>
 <br>
 

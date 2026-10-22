@@ -53,7 +53,13 @@ internal sealed class SkTypefaceProvider : IDisposable
         public static extern IntPtr questpdf_skia_typeface_font_provider_as_font_manager(IntPtr typefaceProvider);
         
         [DllImport(SkiaAPI.LibraryName, CallingConvention = CallingConvention.Cdecl)]
-        public static extern int questpdf_skia_typeface_font_provider_add_typefaces_from_data(IntPtr typefaceProvider, IntPtr data, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(Utf8StringMarshaller))] string? alias);
+        public static extern int questpdf_skia_typeface_font_provider_add_typefaces_from_data(IntPtr typefaceProvider, IntPtr data,
+#if NET5_0_OR_GREATER
+            [MarshalAs(UnmanagedType.LPUTF8Str)]
+#else
+            [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(Utf8StringMarshaller))]
+#endif
+            string? alias);
         
         [DllImport(SkiaAPI.LibraryName, CallingConvention = CallingConvention.Cdecl)]
         public static extern void questpdf_skia_typeface_font_provider_unref(IntPtr typefaceProvider);

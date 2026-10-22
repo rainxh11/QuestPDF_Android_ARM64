@@ -98,6 +98,12 @@
 
         <EmbeddedResource Include="Resources/MimeTypes.csv" />
         <EmbeddedResource Include="Resources/LatinWords.txt" />
+        <!-- APK assets are not loose files. Also allow standalone NativeAOT hosts
+             to use the default fonts without deploying a separate archive. -->
+        <EmbeddedResource Include="Resources/questpdf_fonts_lato.br" LogicalName="QuestPDF.DefaultFonts"
+                          Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net5.0'))" />
+        <EmbeddedResource Include="Resources/questpdf_fonts_lato.gz" LogicalName="QuestPDF.DefaultFonts"
+                          Condition="!$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net5.0'))" />
     </ItemGroup>
     
     <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">

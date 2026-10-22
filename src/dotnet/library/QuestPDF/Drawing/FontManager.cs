@@ -287,10 +287,14 @@ namespace QuestPDF.Drawing
         {
             var archivePath = DefaultFontsArchivePath;
             
-            if (!File.Exists(archivePath))
+            using var archiveStream = File.Exists(archivePath)
+                ? File.OpenRead(archivePath)
+                : typeof(FontManager).Assembly.GetManifestResourceStream("QuestPDF.DefaultFonts");
+
+            if (archiveStream == null)
                 return;
-            
-            foreach (var (name, content) in ResourceArchive.Read(archivePath))
+
+            foreach (var (name, content) in ResourceArchive.Read(archiveStream))
             {
                 if (IsFontFile(name))
                     RegisterTypeface(content);

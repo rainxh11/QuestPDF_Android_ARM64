@@ -210,7 +210,13 @@ internal sealed class SkCanvas : IDisposable
         public static extern void questpdf_skia_canvas_draw_paragraph(IntPtr canvas, IntPtr paragraph, int lineFrom, int lineTo);
         
         [DllImport(SkiaAPI.LibraryName, CallingConvention = CallingConvention.Cdecl)]
-        public static extern void questpdf_skia_canvas_draw_svg_path(IntPtr canvas, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(Utf8StringMarshaller))] string svg, uint color);
+        public static extern void questpdf_skia_canvas_draw_svg_path(IntPtr canvas,
+#if NET5_0_OR_GREATER
+            [MarshalAs(UnmanagedType.LPUTF8Str)]
+#else
+            [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(Utf8StringMarshaller))]
+#endif
+            string svg, uint color);
         
         [DllImport(SkiaAPI.LibraryName, CallingConvention = CallingConvention.Cdecl)]
         public static extern void questpdf_skia_canvas_draw_svg(IntPtr canvas, IntPtr svg, float width, float height);
@@ -232,19 +238,49 @@ internal sealed class SkCanvas : IDisposable
             IntPtr canvas, 
             float width, 
             float height, 
-            [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(Utf8StringMarshaller))] string url,
-            [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(Utf8StringMarshaller))] string? description);
+
+#if NET5_0_OR_GREATER
+            [MarshalAs(UnmanagedType.LPUTF8Str)]
+#else
+            [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(Utf8StringMarshaller))]
+#endif
+            string url,
+
+#if NET5_0_OR_GREATER
+            [MarshalAs(UnmanagedType.LPUTF8Str)]
+#else
+            [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(Utf8StringMarshaller))]
+#endif
+            string? description);
 
         [DllImport(SkiaAPI.LibraryName, CallingConvention = CallingConvention.Cdecl)]
-        public static extern void questpdf_skia_canvas_annotate_destination(IntPtr canvas, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(Utf8StringMarshaller))] string destinationName);
+        public static extern void questpdf_skia_canvas_annotate_destination(IntPtr canvas,
+#if NET5_0_OR_GREATER
+            [MarshalAs(UnmanagedType.LPUTF8Str)]
+#else
+            [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(Utf8StringMarshaller))]
+#endif
+            string destinationName);
 
         [DllImport(SkiaAPI.LibraryName, CallingConvention = CallingConvention.Cdecl)]
         public static extern void questpdf_skia_canvas_annotate_destination_link(
             IntPtr canvas, 
             float width,
             float height, 
-            [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(Utf8StringMarshaller))] string destinationName,
-            [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(Utf8StringMarshaller))] string? description);
+
+#if NET5_0_OR_GREATER
+            [MarshalAs(UnmanagedType.LPUTF8Str)]
+#else
+            [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(Utf8StringMarshaller))]
+#endif
+            string destinationName,
+
+#if NET5_0_OR_GREATER
+            [MarshalAs(UnmanagedType.LPUTF8Str)]
+#else
+            [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(Utf8StringMarshaller))]
+#endif
+            string? description);
         
         [DllImport(SkiaAPI.LibraryName, CallingConvention = CallingConvention.Cdecl)]
         public static extern void questpdf_skia_canvas_get_matrix9(IntPtr canvas, out SkCanvasMatrix matrix);

@@ -89,9 +89,6 @@ namespace QuestPDF.Helpers
                 if (OperatingSystem.IsBrowser())
                     Throw("WebAssembly / Browser", "For example, perform this operation on Blazor Server (not WASM).");
 
-                if (OperatingSystem.IsAndroid())
-                    Throw("Android");
-                
                 if (OperatingSystem.IsIOS())
                     Throw("iOS / iPadOS");
 
@@ -112,15 +109,15 @@ namespace QuestPDF.Helpers
                 
                 var isDesktopOrServer = RuntimeInformation.IsOSPlatform(OSPlatform.Windows) || RuntimeInformation.IsOSPlatform(OSPlatform.Linux) || RuntimeInformation.IsOSPlatform(OSPlatform.OSX);
                 
-                if (!isDesktopOrServer)
+                if (!isDesktopOrServer && !NativeRuntimeDetection.IsAndroidRuntime)
                     Throw("non-desktop/server environment");
             }
 
             static void Throw(string platformName, string? details = null)
             {
                 var message = $"QuestPDF cannot run on the current platform ({platformName}). " +
-                              "It depends on native components that are available only on Windows, Linux, and macOS (desktop and server environments), " +
-                              "and therefore cannot generate documents directly on mobile, browser (WebAssembly), or other sandboxed platforms. " +
+                              "It depends on native components available on Windows, Linux, macOS and Android (ARM64 or x86-64), " +
+                              "and therefore cannot generate documents directly on the current platform. " +
                               "The recommended solution is to move PDF generation to a backend service (for example, a Web API, server, or cloud function) and then deliver the generated file to the client.";
 
                 if (!string.IsNullOrWhiteSpace(details))
@@ -148,7 +145,7 @@ namespace QuestPDF.Helpers
 
         private static void EnsureLinuxGlibcVersionIsSupported()
         {
-            if (!RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
+            if (!RuntimeInformation.IsOSPlatform(OSPlatform.Linux) || NativeRuntimeDetection.IsAndroidRuntime)
                 return;
             
             var glibcVersion = NativeRuntimeDetection.GlibcVersion.Value;
