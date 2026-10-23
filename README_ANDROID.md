@@ -25,7 +25,7 @@ right-to-left mixed text, raster images, SVG paths, and drawing transforms.
 **Create a dedicated C# project that owns document generation and can be compiled to
 NativeAOT as a shared native library.** Keep document templates, fonts, validation and
 business rules in that project. Export a small C ABI and call it from Flutter using
-`dart:ffi`:
+`dart:ffi`, with Dart bindings generated from the C header using **ffigen**:
 
 ```text
 Flutter UI → Dart FFI → your C# NativeAOT shared library → QuestPDF
@@ -220,9 +220,15 @@ maps Flutter targets to matching ABI filters. Do not mix libraries from differen
 architectures or substitute Linux/glibc `.so` files. pdfrx packages its own PDFium
 dependencies separately.
 
-## Flutter / Dart FFI example
+## Flutter / Dart FFI example with ffigen
 
-Add the same dependencies used by the test app:
+**Use [ffigen](https://pub.dev/packages/ffigen) to generate the native bindings instead
+of maintaining function typedefs and symbol lookups by hand.** Keep the C header in
+sync with your C# exports and regenerate bindings whenever the ABI changes. ffigen
+generates the Dart declarations; you still publish and package the NativeAOT library
+and its dependencies as described above.
+
+Add the runtime dependencies used by the test app, plus ffigen as a development dependency:
 
 ```yaml
 dependencies:
@@ -231,11 +237,68 @@ dependencies:
   ffi: ^2.2.0
   path_provider: ^2.1.6
   pdfrx: ^2.10.0
+dev_dependencies:
+  ffigen: ^23.0.0
 ```
 
-Save the following as `lib/native_bridge.dart`. It calls the existing version-1
-sample ABI. Generation runs on a worker isolate; the PDF buffer is copied into Dart
-memory before its owning native library frees it. See also the
+### Generate bindings from the C header
+
+Install LLVM/libclang on the development machine following the
+[ffigen setup instructions](https://pub.dev/packages/ffigen#requirements). It is a
+build-time dependency. Use the programmatic Dart generator API; ffigen's YAML
+configuration is deprecated.
+
+In `samples/flutter_android`, create `tool/ffigen.dart`:
+
+```dart
+import 'dart:io';
+import 'package:ffigen/ffigen.dart';
+
+Future<void> main(List<String> args) async {
+  final root = Platform.script.resolve('../');
+  final generator = FfiGenerator(
+    input: Input(entryPoints: [
+      root.resolve('../../native/android/questpdf_android.h'),
+    ]),
+    output: Output(
+      dart: DartOutput(path: root.resolve('lib/questpdf_bindings.g.dart')),
+      style: const DynamicLibraryBindings(wrapperName: 'QuestPdfBindings'),
+    ),
+    visitors: [
+      Visitor(func: (node) => node.isIncluded = node.name.startsWith('questpdf_')),
+    ],
+  );
+  await generator.generate(
+    libclangDylib: args.isEmpty ? null : Uri.file(args.single),
+  );
+}
+```
+
+The header path above is relative to the included Flutter sample. In your own app,
+copy [`questpdf_android.h`](native/android/questpdf_android.h) into a maintained native
+API directory and update the path. Keep fixed-width C types and the same exported
+signatures as your NativeAOT project. Run from the Flutter project directory:
+
+```powershell
+flutter pub get
+dart run tool/ffigen.dart
+```
+
+If libclang is installed outside the default LLVM locations, pass its absolute
+library path, for example `dart run tool/ffigen.dart C:/path/to/libclang.dll` on Windows.
+
+Commit the generated `lib/questpdf_bindings.g.dart` alongside its generator and header;
+regenerate it after changing the contract. Do not edit generated bindings manually.
+`DynamicLibraryBindings` generates a wrapper around `DynamicLibrary.open`, matching
+the sample's explicit `jniLibs` packaging.
+
+### Wrap the generated calls and manage output memory
+
+Save the following as `lib/native_bridge.dart`. It uses the generated
+`QuestPdfBindings` class to call the version-1 sample ABI. PDF generation runs on a
+worker isolate; the output buffer is copied into Dart memory before its owning
+native library frees it. ffigen does not manage buffer ownership or move work off the
+UI isolate, so keep this wrapper. See also the
 [Dart C interop guide](https://dart.dev/interop/c-interop).
 
 ```dart
@@ -243,28 +306,22 @@ import 'dart:convert';
 import 'dart:ffi';
 import 'package:ffi/ffi.dart';
 import 'package:flutter/foundation.dart';
-
-typedef _GenerateNative = Int32 Function(
-  Int32, Pointer<Utf8>, Pointer<Pointer<Uint8>>, Pointer<Int32>);
-typedef _GenerateDart = int Function(
-  int, Pointer<Utf8>, Pointer<Pointer<Uint8>>, Pointer<Int32>);
+import 'questpdf_bindings.g.dart';
 
 Uint8List _generate((int, String) request) {
   DynamicLibrary.open('libquestpdf_skia.so');
   DynamicLibrary.open('libquestpdf_qpdf.so');
-  final library = DynamicLibrary.open('libquestpdf_android.so');
-  final version = library.lookupFunction<Int32 Function(), int Function()>(
-    'questpdf_abi_version');
-  if (version() != 1) throw StateError('Unsupported QuestPDF bridge ABI');
-  final generate = library.lookupFunction<_GenerateNative, _GenerateDart>(
-    'questpdf_generate');
-  final free = library.lookupFunction<
-    Void Function(Pointer<Void>), void Function(Pointer<Void>)>('questpdf_free');
+  final bindings = QuestPdfBindings(
+    DynamicLibrary.open('libquestpdf_android.so'));
+  if (bindings.questpdf_abi_version() != 1) {
+    throw StateError('Unsupported QuestPDF bridge ABI');
+  }
   final path = request.$2.toNativeUtf8();
   final output = calloc<Pointer<Uint8>>();
   final length = calloc<Int32>();
   try {
-    final status = generate(request.$1, path, output, length);
+    final status = bindings.questpdf_generate(
+      request.$1, path.cast<Char>(), output, length);
     if (length.value < 0 || (length.value != 0 && output.value == nullptr)) {
       throw StateError('Invalid native output buffer');
     }
@@ -275,7 +332,7 @@ Uint8List _generate((int, String) request) {
     }
     return bytes;
   } finally {
-    if (output.value != nullptr) free(output.value.cast());
+    if (output.value != nullptr) bindings.questpdf_free(output.value.cast());
     calloc.free(length);
     calloc.free(output);
     calloc.free(path);
@@ -347,6 +404,8 @@ With the unmodified sample bridge, feature `0` generates its overview fixture. A
 the C# replacement above, the same Dart call generates your invoice. For an example
 with fixture selection, status, test results and page navigation, see the full
 [`Flutter sample`](samples/flutter_android).
+The checked-in test app currently keeps its small handwritten binding implementation
+for reference; the recommended application integration above uses generated bindings.
 
 ## Verification and platform limits
 
@@ -357,6 +416,11 @@ attachments, AES encryption, raster/SVG exports, expected errors, repeated/concu
 generation, XMP metadata and system fonts. Independent parsing/rendering checked all
 22 PDFs / 36 pages; Flutter integration rendered all 36 pages and checked links,
 error recovery and preview navigation. Windows managed regressions passed 559 tests.
+
+**Physical ARM64 device:** the repository user reports testing ARM64 on a real
+**HONOR X70 running Android 16**. This adds physical-device testing to the emulator
+results above. The report does not specify an automated suite result or kernel page
+size, so those details are not inferred from the device test.
 
 Run the native suite from the repository root after publishing the selected ABI:
 
@@ -376,9 +440,10 @@ Pop-Location
 
 Use the matching ABI/Flutter target when testing ARM. Important evidence boundaries:
 
-- Physical ARMv7/ARM64 devices remain untested. ARM64 verification on this Windows
-  machine used Android ARM translation; an ARM64 Flutter profile/AOT build passed,
-  while a debug/JIT build crashed in the translator before document generation.
+- Physical ARMv7 hardware remains untested. Local automated ARM64 verification on
+  this Windows machine used Android ARM translation; an ARM64 Flutter profile/AOT
+  build passed, while a debug/JIT build crashed in the translator before document
+  generation. Physical ARM64 testing is reported above for the HONOR X70 / Android 16.
 - ARMv7 passed on a classic Android API 24 ARM system emulator using software
   rendering. The API 30 x86-64 image's ARMv7 translator crashed in the JPEG fixture;
   identical libraries passed that fixture on the ARM emulator. The classic-emulator

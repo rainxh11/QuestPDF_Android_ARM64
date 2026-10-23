@@ -8,7 +8,9 @@
 
 This fork adds Android ARMv7, ARM64 and x86-64 native builds, a .NET NativeAOT C ABI bridge,
 and a Flutter/pdfrx emulator test app. Start with the [Android guide, preview screenshots,
-and C# NativeAOT / Flutter FFI examples](README_ANDROID.md). See also the [native overview,
+and C# NativeAOT / Flutter FFI examples with recommended ffigen bindings](README_ANDROID.md).
+ARM64 has also been tested by the repository user on a HONOR X70 running Android 16.
+See also the [native overview,
 implementation plan, build instructions and verification results](docs/android-arm64.md).
 
 <br>

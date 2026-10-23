@@ -73,7 +73,9 @@ The Windows x64 emulator refuses a pure ARM64 system image. The installed API 36
 x86_64 Google Play image advertises `arm64-v8a` and `libndk_translation.so`. Validation
 uses native x86-64 execution for the main Flutter test and ARM64 translation for the
 ARM64 C ABI test runner. This exercises ARM64 ELF code on Android, but does not replace physical
-ARM64 hardware testing or a native ARM64-host emulator.
+ARM64 hardware testing or a native ARM64-host emulator. Subsequently, the repository
+user reported testing ARM64 on a physical HONOR X70 running Android 16; automated
+suite results and kernel page size were not supplied with that report.
 
 Standalone NativeAOT uses `linux-bionic-arm64` / `linux-bionic-x64`; `android-arm64` / `android-x64` are the .NET Android
 workload RID. Android NativeAOT is experimental. The bridge targets .NET 10 and avoids
@@ -129,8 +131,9 @@ entire integration test. To reproduce it, build the test with `--profile
 start the activity with `adb shell am start`, forward the Dart VM service port from
 logcat, and run the host driver with `VM_SERVICE_URL` set to that forwarded service
 URL. The profile test runs automatically on launch; attaching the driver retrieves
-the saved report and screenshot. This is an emulator translation boundary; a
-physical ARM64 phone has not been tested.
+the saved report and screenshot. This is an emulator translation boundary. Physical
+ARM64 testing was subsequently reported by the repository user on a HONOR X70
+running Android 16, separately from the automated emulator results.
 
 ```powershell
 flutter build apk --debug --target-platform android-x64 --target integration_test/app_test.dart
@@ -177,7 +180,9 @@ The local NuGet build disables the upstream baseline package validation; it does
 claim a complete API compatibility audit. Native binaries are built against Android
 API 24; runtime verification here is API 36.1. PDF/A and PDF/UA fixtures are generated
 and their structural metadata is inspected; formal veraPDF certification has not run.
-Physical ARM64 hardware and a real 16 KB-page Android kernel are not tested here.
+Physical ARM64 hardware was not part of this initial automated run. The repository
+user subsequently reported testing ARM64 on a HONOR X70 running Android 16. A real
+16 KB-page Android kernel remains unverified; the device's page size was not reported.
 
 The machine's D: drive filled during compilation. Generated dependency/build trees,
 .NET output folders and Flutter build output were preserved and moved to

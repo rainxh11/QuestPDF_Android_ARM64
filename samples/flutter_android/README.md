@@ -6,6 +6,9 @@ runs in a background Dart isolate. It supports `armeabi-v7a`, `arm64-v8a` and `x
 
 Build the native libraries and bridge first, as described in
 [the port overview and build guide](../../docs/android-arm64.md).
+For application integration, follow the [Android guide's recommended ffigen-generated
+Dart bindings](../../README_ANDROID.md#flutter--dart-ffi-example-with-ffigen). This test
+app currently retains its handwritten bindings as a compact reference.
 
 ```powershell
 flutter pub get
@@ -16,6 +19,8 @@ The final demo is built with `--profile` so both Dart and .NET use AOT. On the
 Windows x86-64 emulator, use x86-64 debug for routine development. ARM64 debug under
 the emulator's translation layer crashes in the Dart VM; the ARM64 profile/AOT
 integration test passes. See the main guide for its reproduction steps.
+The repository user also reports testing ARM64 on a physical HONOR X70 running
+Android 16; this report does not specify automated suite results or kernel page size.
 
 ARMv7 was verified on a native Android 7/API 24 ARM system image using Google's
 classic emulator 26.1.4 and Flutter software rendering. All 22 native features and
