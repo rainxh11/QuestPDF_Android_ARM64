@@ -1,5 +1,5 @@
 name: questpdf_android_demo
-description: "QuestPDF NativeAOT PDF generation and pdfrx preview on Android ARM64 and x86-64."
+description: "QuestPDF NativeAOT PDF generation and pdfrx preview on Android ARMv7, ARM64 and x86-64."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev

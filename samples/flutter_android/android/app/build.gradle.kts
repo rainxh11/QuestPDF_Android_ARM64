@@ -4,9 +4,9 @@ plugins {
     id("dev.flutter.flutter-gradle-plugin")
 }
 
-val supportedAbis = mapOf("android-arm64" to "arm64-v8a", "android-x64" to "x86_64")
+val supportedAbis = mapOf("android-arm" to "armeabi-v7a", "android-arm64" to "arm64-v8a", "android-x64" to "x86_64")
 val activeAbis = providers.gradleProperty("target-platform")
-    .orElse("android-arm64,android-x64").get().split(",").mapNotNull { supportedAbis[it] }
+    .orElse("android-arm,android-arm64,android-x64").get().split(",").mapNotNull { supportedAbis[it] }
 
 android {
     namespace = "com.questpdf.questpdf_android_demo"

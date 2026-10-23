@@ -1,7 +1,7 @@
 param(
     [string]$Ndk = "$env:ANDROID_HOME/ndk/29.0.14206865",
     [string]$RuntimeVersion = '10.0.10',
-    [ValidateSet('arm64-v8a', 'x86_64')][string]$Abi = 'arm64-v8a'
+    [ValidateSet('armeabi-v7a', 'arm64-v8a', 'x86_64')][string]$Abi = 'arm64-v8a'
 )
 $ErrorActionPreference = 'Stop'
 $repo = Split-Path $PSScriptRoot -Parent
@@ -10,9 +10,13 @@ $toolchain = Join-Path $Ndk "toolchains/llvm/prebuilt/$hostTag/bin"
 if (-not (Test-Path $toolchain)) { throw "Android NDK toolchain not found: $toolchain" }
 $env:PATH = "$toolchain$([IO.Path]::PathSeparator)$env:PATH"
 $project = Join-Path $repo 'samples/dotnet/QuestPdf.Android.Native'
-$cpu = if ($Abi -eq 'arm64-v8a') { 'arm64' } else { 'x64' }
+$cpu = @{ 'armeabi-v7a' = 'arm'; 'arm64-v8a' = 'arm64'; 'x86_64' = 'x64' }[$Abi]
 $rid = "linux-bionic-$cpu"
+# Apply these properties to referenced projects during restore as well. ARM32
+# Bionic ships a NativeAOT runtime pack but has no CoreCLR runtime pack.
+# Only net10.0 is needed by this bridge, even though QuestPDF targets older TFMs.
 & dotnet publish $project -c Release -f net10.0 -r $rid `
+    -p:TargetFrameworks=net10.0 -p:PublishAot=true -p:PublishAotUsingRuntimePack=true `
     "-p:RuntimeFrameworkVersion=$RuntimeVersion" -p:CppCompilerAndLinker=clang -p:ObjCopyName=llvm-objcopy `
     -p:GenerateDocumentationFile=false
 if ($LASTEXITCODE -ne 0) { throw 'NativeAOT publish failed' }

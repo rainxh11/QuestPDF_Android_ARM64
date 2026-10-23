@@ -1,8 +1,10 @@
-# Android ARM64 and x86-64 port
+# Android ARMv7, ARM64 and x86-64 port
 
 Scope expanded at the user's request to include Android x86-64, so the Windows
 x64 emulator can execute and debug the native stack without ARM translation.
-Both Android ABIs are built from the same pinned source revisions.
+ARMv7 (`armeabi-v7a`) was added subsequently. All Android ABIs are built from the
+same pinned source revisions. Historical results below describe the original two-ABI
+verification; the ARMv7 extension is tracked separately.
 
 ## Native dependency overview
 
@@ -25,11 +27,11 @@ binaries or substituting stock Skia/qpdf would not provide the required ABI.
 
 ## Necessary changes and additions
 
-1. Build pinned QuestPDF Skia and qpdf C++ sources with Android NDK for `arm64-v8a` and `x86_64`,
+1. Build pinned QuestPDF Skia and qpdf C++ sources with Android NDK for `armeabi-v7a`, `arm64-v8a` and `x86_64`,
    with PIC, hidden internal symbols, Android-compatible font discovery, and 16 KB
    ELF load-segment alignment. Preserve all managed-imported exports and ABI versions.
 2. Detect Android and the NativeAOT Bionic RID separately from Linux/musl. Package
-   native assets for `android-arm64` / `android-x64` (.NET Android) and `linux-bionic-arm64` / `linux-bionic-x64`
+   native assets for `android-arm` / `android-arm64` / `android-x64` (.NET Android) and `linux-bionic-arm` / `linux-bionic-arm64` / `linux-bionic-x64`
    (standalone NativeAOT) and avoid selecting desktop Linux assets.
 3. Replace custom UTF-8 P/Invoke marshaling with built-in UTF-8 marshaling for modern
    .NET while keeping the netstandard compatibility path.
@@ -38,7 +40,7 @@ binaries or substituting stock Skia/qpdf would not provide the required ABI.
    cache directory for qpdf temporary files. APK assets are not ordinary loose files.
 5. Export a small versioned C API from a .NET NativeAOT shared library. Return owned
    buffers with explicit free, stable status codes, and caught exception messages.
-6. Package the bridge and both dependencies into Flutter `jniLibs/{arm64-v8a,x86_64}`, call via
+6. Package the bridge and both dependencies into Flutter `jniLibs/{armeabi-v7a,arm64-v8a,x86_64}`, call via
    Dart FFI away from the UI isolate, and preview returned bytes with `pdfrx`.
 7. Validate ABI/exports/dependencies/alignment, managed regressions, Android feature
    generation, independent PDF parsing/rendering, and the actual Flutter preview flow.
@@ -83,6 +85,8 @@ JNI because Dart FFI calls its exported functions directly.
 - [QuestPDF Skia fork](https://github.com/QuestPDF/QuestPDF.Native.Skia)
 - [QuestPDF qpdf build sources](https://github.com/QuestPDF/QuestPDF.Native.Qpdf.Build)
 - [.NET NativeAOT on Android Bionic](https://github.com/dotnet/runtime/blob/release/10.0/src/coreclr/nativeaot/docs/android-bionic.md)
+- [.NET NativeAOT ARM32 Bionic build support](https://github.com/dotnet/runtime/pull/97996)
+- [Android emulator ARM translation](https://android-developers.googleblog.com/2020/03/run-arm-apps-on-android-emulator.html)
 - [Android 16 KB page sizes](https://developer.android.com/guide/practices/page-sizes)
 
 ## Build and run
@@ -97,16 +101,18 @@ otherwise skips these generated headers. Source commits are pinned in
 ```powershell
 python scripts/build_android_native.py --abi arm64-v8a --ndk C:/Android/ndk/29.0.14206865 --cmake C:/Android/cmake/3.22.1/bin/cmake.exe --ninja C:/Android/cmake/3.22.1/bin/ninja.exe
 python scripts/build_android_native.py --abi x86_64 --ndk C:/Android/ndk/29.0.14206865 --cmake C:/Android/cmake/3.22.1/bin/cmake.exe --ninja C:/Android/cmake/3.22.1/bin/ninja.exe
+python scripts/build_android_native.py --abi armeabi-v7a --ndk C:/Android/ndk/29.0.14206865 --cmake C:/Android/cmake/3.22.1/bin/cmake.exe --ninja C:/Android/cmake/3.22.1/bin/ninja.exe
 ./scripts/publish_android_bridge.ps1 -Abi arm64-v8a
 ./scripts/publish_android_bridge.ps1 -Abi x86_64
+./scripts/publish_android_bridge.ps1 -Abi armeabi-v7a
 
 cd samples/flutter_android
 flutter pub get
-flutter build apk --debug --target-platform android-arm64,android-x64
+flutter build apk --profile --target-platform android-arm,android-arm64,android-x64
 ```
 
-For a distributable local demo that uses Dart AOT too, use `--profile` in place of
-`--debug`. The supplied demo APK is a profile build signed with the debug key.
+The profile build uses Dart AOT too. For local debugging, use `--debug` in place of
+`--profile`. The supplied demo APK is a profile build signed with the debug key.
 
 For the emulator integration test, build the test entry point for the selected ABI,
 then run the existing APK. The integration runner asserts the executed .NET ABI,
@@ -138,6 +144,9 @@ PDFs with pypdf and renders every page with Poppler, checking embedded fonts, me
 links, page selection/merging, attachments, AES passwords and raster/SVG exports.
 
 ## Results measured on 2026-10-22
+
+This table records the initial ARM64/x86-64 validation. See the ARMv7 extension
+section below for the subsequent 32-bit work.
 
 | Check | Result |
 | --- | --- |
@@ -175,3 +184,119 @@ The machine's D: drive filled during compilation. Generated dependency/build tre
 `F:/CodexBuilds/QuestPdfAndroid`, with directory junctions at their original workspace
 locations. Source files remain in this repository. No global caches or user files
 were deleted. These junctions are local build storage and are not Git artifacts.
+
+## ARMv7 extension
+
+| Layer | ARMv7 identifier |
+| --- | --- |
+| Android APK / NDK | `armeabi-v7a` |
+| Flutter target | `android-arm` |
+| .NET Android package RID | `android-arm` |
+| Standalone NativeAOT RID | `linux-bionic-arm` |
+| Skia GN CPU / .NET architecture | `arm` / `Arm` |
+| ELF | ELF32, ARM machine 40, EABI5, Android soft-float calling convention |
+
+The native sources and minimum Android API 24 are unchanged. The library packages
+both Android and Bionic ARM32 native assets. The ELF verifier reads 32-bit and
+64-bit program headers separately and rejects ARM hard-float ABI libraries.
+The NativeAOT report includes `PointerSize`; native and Flutter integration tests
+assert four bytes on ARMv7 and eight on the existing 64-bit targets.
+
+ARM32 Bionic publishes a NativeAOT runtime pack but no CoreCLR runtime pack. The
+bridge publishing script applies `PublishAot=true`, `PublishAotUsingRuntimePack=true`
+and `TargetFrameworks=net10.0` globally so referenced projects restore against the
+NativeAOT pack as well. This only limits the sample's publish operation; the
+QuestPDF NuGet package still targets all five original frameworks.
+
+ARMv7 native validation uses the Android 7/API 24 AOSP `armeabi-v7a` system image
+on Google's classic emulator 26.1.4. It runs an ARMv7 Linux kernel and emulated
+Cortex-A8 CPU with NEON/VFPv3, without an x86 native-bridge translation layer.
+Current QEMU2 emulator releases reject ARM32 system images. The classic emulator
+was downloaded from [Google's archive](https://dl.google.com/android/repository/emulator-windows-4266726.zip)
+and extracted only under ignored task artifacts. The installed Android SDK was
+not replaced. Create an AVD for `system-images;android-24;default;armeabi-v7a`
+and start it with that emulator's `-engine classic` option.
+
+The API 36.1 image used above has no 32-bit userspace. The Android 11/API 30 Google
+APIs x86-64 image does advertise ARMv7 translation, but its `libndk_translation`
+crashes in the full JPEG fixture. The identical libraries pass all 22 features
+on native ARM emulation, including JPEG. Do not use that translator as the
+ARMv7 verification target.
+
+Run the native C ABI suite on the ARM system image:
+
+```powershell
+./scripts/test_android_bridge.ps1 -Serial emulator-5558 -Abi armeabi-v7a
+```
+
+The script compiles the C runner, pushes the three matching libraries, runs all
+22 fixtures and retrieves reports/PDFs under `artifacts/emulator-arm/`. The same
+command works with a physical device's serial. `-NativeDirectory` can select an
+alternative directory containing all three libraries. `-Loader` is available for
+the previously verified ARM64 translation workflow.
+
+For the Flutter test, build from `samples/flutter_android`:
+
+```powershell
+flutter build apk --profile --target-platform android-arm --target integration_test/app_test.dart
+adb -s emulator-5558 install -t -r --abi armeabi-v7a build/app/outputs/flutter-apk/app-profile.apk
+adb -s emulator-5558 shell am start -n com.questpdf.questpdf_android_demo/.MainActivity --ez enable-impeller false --ez enable-software-rendering true
+```
+
+The classic emulator exposes GLES 1 through PixelFlinger, so Flutter uses software
+rendering for this test. Generation and PDFium/pdfrx page rendering still execute
+inside the ARM32 app. The profile test runs automatically. Read its Dart VM service
+port and authentication path from logcat, forward that port with `adb forward`,
+set `VM_SERVICE_URL` to the forwarded URL, then retrieve the report and screenshot:
+
+```powershell
+dart --disable-dart-dev --packages=.dart_tool/package_config.json test_driver/integration_test.dart
+```
+
+Direct VM execution avoids running unrelated Windows PDFium native build hooks
+for this host-only driver. The test verifies the new document's page count before
+navigating, then asserts that the actual preview controller reaches page 2 and
+returns to page 1; this avoids a stale-widget race on slower devices.
+
+Alternatively, after building the profile integration APK, run the helper from
+the repository root. It installs the APK, launches it, forwards the VM service and
+retrieves the results automatically:
+
+```powershell
+./scripts/run_android_flutter_test.ps1 -Serial emulator-5558 -Abi armeabi-v7a -SoftwareRendering
+```
+
+Native verification on 2026-10-23: 22/22 features passed with runtime
+`linux-bionic-arm`, architecture `Arm`, and pointer size 4. Independent pypdf and
+Poppler verification parsed and rendered all 22 PDFs / 36 pages. ARM32 ELF checks
+passed all 100 Skia, 14 qpdf and four bridge exports, Android-only dependencies,
+EABI5 soft-float calling convention and 16 KB LOAD alignment. Managed regressions
+passed 457 unit and 102 layout tests; the x86-64 native regression also passed all
+22 features on API 30.
+
+`scripts/verify_android_package.py` confirms five managed frameworks and all six
+Android/Bionic RIDs in `QuestPDF.2026.9.1-android.2.nupkg`, with all 12 native assets
+matching source byte-for-byte. Physical ARMv7 hardware remains untested.
+
+The complete ARMv7 Flutter profile integration also passed on the native API 24
+emulator: all 22 native features, all 36 pages rendered with PDFium/pdfrx, links,
+managed-error recovery, verified page 2/1 navigation, and a valid preview screenshot.
+The report and screenshot are `artifacts/emulator/linux-bionic-arm-integration-results.json`
+and `artifacts/emulator/questpdf-arm-preview.png`.
+
+Final deliverables are `artifacts/deliverables/questpdf-android-armv7-arm64-x64-profile.apk`
+and `artifacts/deliverables/QuestPDF.2026.9.1-android.2.nupkg`. The normal demo APK
+contains 27 native libraries across all three ABIs. Its QuestPDF binaries match
+the verified inputs, `zipalign -c -P 16 -v 4` passes, and its APK v2 signature
+verifies. The normal demo was also installed and opened its PDF preview on ARMv7.
+The APK is a local profile build using the Android debug signing key.
+
+The three QuestPDF native libraries have 16 KB ELF LOAD alignment on every ABI,
+and all packaged ARM64/x86-64 dependencies retain 16 KB alignment. The prebuilt
+ARM32 `libpdfium.so` supplied by pdfrx has 4 KB ELF alignment; ARMv7 verification
+here uses a 4 KB-page kernel. A real 16 KB-page Android kernel and formal PDF/A or
+PDF/UA certification remain outside the measured evidence.
+
+`artifacts/deliverables/verification-armv7.json` records checksums, test counts and
+these limits. `armv7-apk-verification.json` records each packaged native library's
+size and minimum LOAD alignment. The preview screenshot is `android-armv7-preview.png`.

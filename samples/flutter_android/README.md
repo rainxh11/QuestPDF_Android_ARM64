@@ -2,20 +2,27 @@
 
 The app calls the local QuestPDF C# source compiled as a .NET NativeAOT shared
 library, receives PDF bytes through Dart FFI, and displays them with pdfrx. Generation
-runs in a background Dart isolate. It supports `arm64-v8a` and `x86_64`.
+runs in a background Dart isolate. It supports `armeabi-v7a`, `arm64-v8a` and `x86_64`.
 
 Build the native libraries and bridge first, as described in
 [the port overview and build guide](../../docs/android-arm64.md).
 
 ```powershell
 flutter pub get
-flutter build apk --debug --target-platform android-arm64,android-x64
+flutter build apk --profile --target-platform android-arm,android-arm64,android-x64
 ```
 
 The final demo is built with `--profile` so both Dart and .NET use AOT. On the
 Windows x86-64 emulator, use x86-64 debug for routine development. ARM64 debug under
 the emulator's translation layer crashes in the Dart VM; the ARM64 profile/AOT
 integration test passes. See the main guide for its reproduction steps.
+
+ARMv7 was verified on a native Android 7/API 24 ARM system image using Google's
+classic emulator 26.1.4 and Flutter software rendering. All 22 native features and
+36 PDFium-rendered pages passed, including actual preview page navigation and a
+screenshot. The newer API 30 ARMv7 translator crashes in the JPEG fixture; use the
+native ARM system image for this ABI. The main guide describes the isolated legacy
+emulator setup.
 
 Select a feature and tap **Generate PDF**. **Run all tests** executes the 22 native
 fixtures and exposes the full report. The PDF preview has page navigation controls.
@@ -25,6 +32,13 @@ To run the full UI test on an x86-64 emulator:
 ```powershell
 flutter build apk --debug --target-platform android-x64 --target integration_test/app_test.dart
 flutter drive --driver=test_driver/integration_test.dart --target=integration_test/app_test.dart --use-application-binary=build/app/outputs/flutter-apk/app-debug.apk -d emulator-5554
+```
+
+For an ARMv7 profile integration test, build and use the helper from this directory:
+
+```powershell
+flutter build apk --profile --target-platform android-arm --target integration_test/app_test.dart
+../../scripts/run_android_flutter_test.ps1 -Serial emulator-5558 -Abi armeabi-v7a -SoftwareRendering
 ```
 
 The test checks the actual .NET runtime/architecture, all feature results, every

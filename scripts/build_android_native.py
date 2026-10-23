@@ -1,4 +1,4 @@
-"""Build actual QuestPDF native forks for Android ARM64 or x86-64."""
+"""Build actual QuestPDF native forks for Android ARMv7, ARM64 or x86-64."""
 import argparse
 import json
 import os
@@ -16,6 +16,16 @@ LOCK = json.loads((ROOT / 'native/android/sources.json').read_text())
 def run(*args, cwd=ROOT, env=None):
     print('+', ' '.join(str(a) for a in args), flush=True)
     subprocess.run([str(a) for a in args], cwd=cwd, env=env, check=True)
+
+
+def copy_changed_source(source, destination):
+    # Preserve unchanged files, but timestamp changed content now. copy2 alone
+    # can restore an older upstream timestamp and leave stale Ninja objects.
+    destination = Path(destination)
+    if not destination.exists() or Path(source).read_bytes() != destination.read_bytes():
+        shutil.copy2(source, destination)
+        os.utime(destination, None)
+    return str(destination)
 
 
 def source(name):
@@ -71,7 +81,7 @@ def sync_skia(skia):
 def generate_grapheme_headers(skia, host_cc):
     # Skia's host-toolchain test does not generate these tables when Android is
     # cross-compiled on Windows. Generate the pinned Unicode tables with a host
-    # compiler before invoking Ninja. The same tables are shared by both ABIs.
+    # compiler before invoking Ninja. The same tables are shared by all ABIs.
     grapheme = skia / 'third_party/externals/libgrapheme'
     tools = ROOT / 'artifacts/build/grapheme-host-tools'
     tools.mkdir(parents=True, exist_ok=True)
@@ -96,11 +106,11 @@ def main():
     parser.add_argument('--jobs', type=int, default=2)
     parser.add_argument('--only', choices=['skia', 'qpdf', 'all'], default='all')
     parser.add_argument('--skip-sync', action='store_true')
-    parser.add_argument('--abi', choices=['arm64-v8a', 'x86_64'], default='arm64-v8a')
+    parser.add_argument('--abi', choices=['armeabi-v7a', 'arm64-v8a', 'x86_64'], default='arm64-v8a')
     parser.add_argument('--host-cc', default='gcc' if os.name == 'nt' else 'cc')
     args = parser.parse_args()
     ndk = args.ndk.resolve()
-    cpu = 'arm64' if args.abi == 'arm64-v8a' else 'x64'
+    cpu = {'armeabi-v7a': 'arm', 'arm64-v8a': 'arm64', 'x86_64': 'x64'}[args.abi]
     output = ROOT / 'artifacts/android' / args.abi
     output.mkdir(parents=True, exist_ok=True)
     cmake_args = ['-G', 'Ninja', f'-DCMAKE_MAKE_PROGRAM={args.ninja}',
@@ -150,7 +160,7 @@ def main():
         # Copy the wrapper before the Android-only adaptation; keep upstream intact.
         patched = ROOT / f'artifacts/build/android-wrapper-{cpu}'
         shutil.copytree(wrapper / 'native', patched, dirs_exist_ok=True,
-                        ignore=shutil.ignore_patterns('build'))
+                        ignore=shutil.ignore_patterns('build'), copy_function=copy_changed_source)
         fonts = patched / 'src/text/fontManager.cpp'
         text = fonts.read_text()
         old = '#ifdef __linux__'

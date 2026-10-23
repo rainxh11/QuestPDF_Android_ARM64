@@ -14,7 +14,7 @@ using QuestPDF.Infrastructure;
 namespace QuestPdf.Android.Native;
 
 public sealed record FeatureResult(int Id, string Name, bool Passed, long Milliseconds, int Bytes, string? Error);
-public sealed record SuiteReport(string Runtime, string Architecture, List<FeatureResult> Results);
+public sealed record SuiteReport(string Runtime, string Architecture, int PointerSize, List<FeatureResult> Results);
 
 [JsonSerializable(typeof(SuiteReport))]
 internal partial class ReportJsonContext : JsonSerializerContext;
@@ -293,7 +293,7 @@ public static class FeatureSuite
             catch (Exception ex) { results.Add(new(id, Names[id], false, timer.ElapsedMilliseconds, 0, ex.ToString())); }
         }
         var report = JsonSerializer.Serialize(new SuiteReport(RuntimeInformation.RuntimeIdentifier,
-            RuntimeInformation.ProcessArchitecture.ToString(), results), ReportJsonContext.Default.SuiteReport);
+            RuntimeInformation.ProcessArchitecture.ToString(), IntPtr.Size, results), ReportJsonContext.Default.SuiteReport);
         File.WriteAllText(Path.Combine(directory, "results.json"), report);
         return (report, results.All(x => x.Passed));
     }

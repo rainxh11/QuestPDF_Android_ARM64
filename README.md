@@ -6,7 +6,7 @@
 
 ### Android support in this fork
 
-This fork adds Android ARM64 and x86-64 native builds, a .NET NativeAOT C ABI bridge,
+This fork adds Android ARMv7, ARM64 and x86-64 native builds, a .NET NativeAOT C ABI bridge,
 and a Flutter/pdfrx emulator test app. See the [native overview, implementation plan,
 build instructions and verification results](docs/android-arm64.md).
 

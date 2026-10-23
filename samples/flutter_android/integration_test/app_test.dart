@@ -14,6 +14,8 @@ void main() {
 
   Future<void> waitFor(WidgetTester tester, bool Function() ready) async {
     final deadline = DateTime.now().add(const Duration(minutes: 5));
+    // Apply state changes from the preceding tap before inspecting the tree.
+    await tester.pump();
     while (!ready()) {
       if (DateTime.now().isAfter(deadline)) fail('Timed out waiting for app: ${find.byKey(const ValueKey('native-status')).evaluate().map((e) => (e.widget as Text).data)}');
       await tester.pump(const Duration(milliseconds: 300));
@@ -30,9 +32,15 @@ void main() {
     final cache = await getApplicationCacheDirectory();
     final directory = '${cache.path}/questpdf-tests';
     final report = jsonDecode(await File('$directory/results.json').readAsString()) as Map<String, dynamic>;
-    final arm64 = Abi.current() == Abi.androidArm64;
-    expect(report['Architecture'], arm64 ? 'Arm64' : 'X64');
-    expect(report['Runtime'], arm64 ? 'linux-bionic-arm64' : 'linux-bionic-x64');
+    final (architecture, cpu) = switch (Abi.current()) {
+      Abi.androidArm => ('Arm', 'arm'),
+      Abi.androidArm64 => ('Arm64', 'arm64'),
+      Abi.androidX64 => ('X64', 'x64'),
+      final abi => throw UnsupportedError('Unsupported test ABI: $abi'),
+    };
+    expect(report['Architecture'], architecture);
+    expect(report['Runtime'], 'linux-bionic-$cpu');
+    expect(report['PointerSize'], sizeOf<IntPtr>());
     final results = report['Results'] as List<dynamic>;
     expect(results.length, featureNames.length);
     for (final result in results) {
@@ -40,11 +48,15 @@ void main() {
     }
 
     var renderedPages = 0;
+    var tablePageCount = 0;
     for (var id = 0; id < featureNames.length; id++) {
       final document = await PdfDocument.openFile('$directory/feature-${id.toString().padLeft(2, '0')}.pdf');
       try {
         expect(document.pages, isNotEmpty);
-        if (id == 1) expect(document.pages.length, greaterThan(3));
+        if (id == 1) {
+          expect(document.pages.length, greaterThan(3));
+          tablePageCount = document.pages.length;
+        }
         if (id == 6 || id == 10) expect(document.pages.length, 2);
         for (final page in document.pages) {
           final image = await page.render(fullWidth: 300, fullHeight: page.height * 300 / page.width);
@@ -72,14 +84,15 @@ void main() {
     await tester.tap(find.text(featureNames[1]).last);
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(const ValueKey('generate')));
-    await waitFor(tester, () => find.byKey(const ValueKey('preview-ready')).evaluate().isNotEmpty);
+    await waitFor(tester, () => find.text('PDF preview ready · $tablePageCount pages').evaluate().isNotEmpty);
+    final previewController = tester.widget<PdfViewer>(find.byType(PdfViewer)).controller!;
     await tester.tap(find.byKey(const ValueKey('next-page')));
-    await tester.pumpAndSettle();
+    await waitFor(tester, () => previewController.pageNumber == 2);
     await tester.tap(find.byKey(const ValueKey('previous-page')));
-    await tester.pumpAndSettle();
+    await waitFor(tester, () => previewController.pageNumber == 1);
     await binding.convertFlutterSurfaceToImage();
     await tester.pumpAndSettle();
-    await binding.takeScreenshot('questpdf-${arm64 ? 'arm64' : 'x64'}-preview');
+    await binding.takeScreenshot('questpdf-$cpu-preview');
     binding.reportData ??= <String, dynamic>{};
     binding.reportData!['nativeReport'] = report;
     binding.reportData!['renderedPages'] = renderedPages;

@@ -8,7 +8,7 @@ import subprocess
 ROOT = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser(__doc__)
 parser.add_argument('directory', type=Path)
-parser.add_argument('--abi', choices=['arm64-v8a', 'x86_64'], required=True)
+parser.add_argument('--abi', choices=['armeabi-v7a', 'arm64-v8a', 'x86_64'], required=True)
 parser.add_argument('--llvm-bin', type=Path, required=True)
 args = parser.parse_args()
 
@@ -23,14 +23,22 @@ def tool(name, *params):
 for name in ['questpdf_skia', 'questpdf_qpdf', 'questpdf_android']:
     path = args.directory / f'lib{name}.so'
     data = path.read_bytes()
-    assert data[:6] == b'\x7fELF\x02\x01', f'{path}: expected little-endian ELF64'
+    elf_class, expected_machine = {'armeabi-v7a': (1, 40), 'arm64-v8a': (2, 183), 'x86_64': (2, 62)}[args.abi]
+    assert data[:6] == b'\x7fELF' + bytes([elf_class, 1]), f'{path}: wrong ELF class or endianness'
     machine = struct.unpack_from('<H', data, 18)[0]
-    assert machine == (183 if args.abi == 'arm64-v8a' else 62), f'{path}: wrong machine {machine}'
-    phoff = struct.unpack_from('<Q', data, 32)[0]
-    phentsize, phnum = struct.unpack_from('<HH', data, 54)
+    assert machine == expected_machine, f'{path}: wrong machine {machine}'
+    if elf_class == 1:
+        abi_flags = struct.unpack_from('<I', data, 36)[0]
+        assert abi_flags & 0xff000000 == 0x05000000, f'{path}: expected ARM EABI5'
+        assert not abi_flags & 0x400, f'{path}: Android requires the soft-float calling convention'
+    phoff = struct.unpack_from('<I' if elf_class == 1 else '<Q', data, 28 if elf_class == 1 else 32)[0]
+    phentsize, phnum = struct.unpack_from('<HH', data, 42 if elf_class == 1 else 54)
     loads = 0
     for index in range(phnum):
-        kind, flags, offset, virtual, _, filesz, memsz, align = struct.unpack_from('<IIQQQQQQ', data, phoff + index * phentsize)
+        if elf_class == 1:
+            kind, offset, virtual, _, filesz, memsz, flags, align = struct.unpack_from('<IIIIIIII', data, phoff + index * phentsize)
+        else:
+            kind, flags, offset, virtual, _, filesz, memsz, align = struct.unpack_from('<IIQQQQQQ', data, phoff + index * phentsize)
         if kind != 1:
             continue
         loads += 1

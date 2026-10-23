@@ -116,7 +116,7 @@ namespace QuestPDF.Helpers
             static void Throw(string platformName, string? details = null)
             {
                 var message = $"QuestPDF cannot run on the current platform ({platformName}). " +
-                              "It depends on native components available on Windows, Linux, macOS and Android (ARM64 or x86-64), " +
+                              "It depends on native components available on Windows, Linux, macOS and Android (ARMv7, ARM64 or x86-64), " +
                               "and therefore cannot generate documents directly on the current platform. " +
                               "The recommended solution is to move PDF generation to a backend service (for example, a Web API, server, or cloud function) and then deliver the generated file to the client.";
 

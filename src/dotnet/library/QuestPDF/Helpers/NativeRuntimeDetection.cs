@@ -28,6 +28,8 @@ internal static class NativeRuntimeDetection
         "linux-arm64",
         "osx-x64",
         "osx-arm64",
+        "android-arm",
+        "linux-bionic-arm",
         "android-arm64",
         "linux-bionic-arm64",
         "android-x64",
