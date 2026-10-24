@@ -1,0 +1,11 @@
+version: 1
+id: 7572cc16-7b8e-4b01-ac99-cf5818cc393b
+name: QuestPDF Companion v3 contract
+slug: questpdf-companion-v3-contract
+protocol: http
+interceptRequests: true
+port: 49127
+scenarios:
+  - name: default
+    path: ./default.js
+    default: true

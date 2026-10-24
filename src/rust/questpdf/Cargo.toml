@@ -1,0 +1,25 @@
+[package]
+name = "questpdf"
+version.workspace = true
+edition.workspace = true
+license-file = "LICENSE.md"
+description = "Rust reimplementation of QuestPDF's managed layout engine over its native Skia ABI"
+
+[dependencies]
+anyhow.workspace = true
+chrono.workspace = true
+libloading = "0.8"
+serde_json.workspace = true
+serde.workspace = true
+xmltree = { version = "0.12", features = ["attribute-order"] }
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json"] }
+base64 = "0.22"
+uuid = { version = "1", features = ["v4"] }
+
+[target.'cfg(unix)'.dependencies]
+libc = "0.2"
+
+[dev-dependencies]
+serde_json.workspace = true
+base64 = "0.22"
+

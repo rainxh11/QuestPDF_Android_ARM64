@@ -1,0 +1,29 @@
+{
+  "IsDebtReceipt": true,
+  "ClientName": "CHETTIH SOUAD",
+  "ClientPhone": "0550 12 34 56",
+  "PaidBy": "Khadidja",
+  "PaidAt": "2026-07-13T13:15:00+01:00",
+  "QrCode": "https://50lab-ris.local/command-center?client=507f1f77bcf86cd799439011",
+  "Exams": [],
+  "Products": [],
+  "Transactions": [
+    {
+      "Date": "2026-07-13T10:25:28+01:00",
+      "Amount": 2000,
+      "Status": "out",
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "Date": "2026-07-13T13:15:00+01:00",
+      "Amount": 750,
+      "Status": "in",
+      "CreatedBy": "Khadidja"
+    }
+  ],
+  "TotalPrice": 0,
+  "Discount": 0,
+  "ConventionDiscount": 0,
+  "PaidAmount": 750,
+  "RemainingDebt": 1250
+}

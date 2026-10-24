@@ -1,0 +1,74 @@
+{
+  "Transactions": [
+    {
+      "Amount": 3000,
+      "DebtAt": "2026-07-03T08:23:00",
+      "CreatedBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "debt-client-1",
+        "FirstName": "FATTOUM",
+        "FamilyName": "ATTIA",
+        "PhoneNumber": "0550 12 34 56",
+        "Name": "ATTIA FATTOUM"
+      },
+      "CurrentDebt": 0
+    },
+    {
+      "Amount": 1750,
+      "DebtAt": "2026-07-03T09:12:00",
+      "CreatedBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "debt-client-2",
+        "FirstName": "MOHAMED",
+        "FamilyName": "BENALI",
+        "PhoneNumber": "0551 98 76 54",
+        "Name": "BENALI MOHAMED"
+      },
+      "CurrentDebt": 1250
+    },
+    {
+      "Amount": 2200,
+      "DebtAt": "2026-07-02T15:05:00",
+      "CreatedBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "debt-client-3",
+        "FirstName": "NADIA",
+        "FamilyName": "BOUCHAREB",
+        "PhoneNumber": "0552 23 45 67",
+        "Name": "BOUCHAREB NADIA"
+      },
+      "CurrentDebt": 2200
+    },
+    {
+      "Amount": 950,
+      "DebtAt": "2026-07-01T11:45:00",
+      "CreatedBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "debt-client-4",
+        "FirstName": "AHMED",
+        "FamilyName": "KHELIFI",
+        "PhoneNumber": "0553 45 67 89",
+        "Name": "KHELIFI AHMED"
+      },
+      "CurrentDebt": 450
+    }
+  ],
+  "StartDate": "2026-07-01T00:00:00",
+  "EndDate": "2026-07-03T00:00:00",
+  "AllTime": false,
+  "AsOfDate": "2026-07-15T14:30:00",
+  "Period": "01 JUIL. 2026 - 03 JUIL. 2026",
+  "TotalOutDebt": 7900
+}

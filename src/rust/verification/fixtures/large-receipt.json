@@ -1,0 +1,15 @@
+{
+  "PrintedAt": "2026-08-14T18:08:53+01:00",
+  "ClientName": "BENABDERRAHMANE MOHAMED EL AMINE",
+  "ClientPhone": "06-58-42-48-62",
+  "Age": "61 ANS",
+  "PaymentStatus": "paid",
+  "Studies": [
+    {
+      "Id": 164356,
+      "Modality": "RX",
+      "ExamType": "Panoramique dentaire",
+      "SubstituteDoctor": ""
+    }
+  ]
+}

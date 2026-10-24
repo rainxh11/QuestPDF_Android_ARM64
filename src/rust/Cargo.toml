@@ -1,0 +1,15 @@
+[workspace]
+members = ["questpdf", "document-server", "receipt-preview"]
+resolver = "2"
+
+[workspace.package]
+edition = "2024"
+license-file = "LICENSE.md"
+version = "0.1.0"
+
+[workspace.dependencies]
+anyhow = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["arbitrary_precision"] }
+chrono = { version = "0.4", features = ["serde"] }
+

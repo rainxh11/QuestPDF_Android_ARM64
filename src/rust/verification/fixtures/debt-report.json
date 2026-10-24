@@ -1,0 +1,5047 @@
+{
+  "ReportHash": "",
+  "Clients": [
+    {
+      "FirstName": "Pr\u00E9nom 1",
+      "FamilyName": "CLIENT 001",
+      "Gender": "",
+      "PhoneNumber": "0550 01 07 13",
+      "LastDebtAt": "2026-06-30T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-30T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 30 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 637,
+      "Name": "CLIENT 001 Pr\u00E9nom 1",
+      "LastDebt": "TUESDAY, 30 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 2",
+      "FamilyName": "CLIENT 002",
+      "Gender": "",
+      "PhoneNumber": "0550 02 14 26",
+      "LastDebtAt": "2026-06-29T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-29T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 29 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 774,
+      "Name": "CLIENT 002 Pr\u00E9nom 2",
+      "LastDebt": "MONDAY, 29 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 3",
+      "FamilyName": "CLIENT 003",
+      "Gender": "",
+      "PhoneNumber": "0550 03 21 39",
+      "LastDebtAt": "2026-06-28T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-28T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 28 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 911,
+      "Name": "CLIENT 003 Pr\u00E9nom 3",
+      "LastDebt": "SUNDAY, 28 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 4",
+      "FamilyName": "CLIENT 004",
+      "Gender": "",
+      "PhoneNumber": "0550 04 28 52",
+      "LastDebtAt": "2026-06-27T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-27T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 27 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 1048,
+      "Name": "CLIENT 004 Pr\u00E9nom 4",
+      "LastDebt": "SATURDAY, 27 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 5",
+      "FamilyName": "CLIENT 005",
+      "Gender": "",
+      "PhoneNumber": "0550 05 35 65",
+      "LastDebtAt": "2026-06-26T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-26T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 26 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 1185,
+      "Name": "CLIENT 005 Pr\u00E9nom 5",
+      "LastDebt": "FRIDAY, 26 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 6",
+      "FamilyName": "CLIENT 006",
+      "Gender": "",
+      "PhoneNumber": "0550 06 42 78",
+      "LastDebtAt": "2026-06-25T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-25T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "THURSDAY, 25 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 1322,
+      "Name": "CLIENT 006 Pr\u00E9nom 6",
+      "LastDebt": "THURSDAY, 25 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 7",
+      "FamilyName": "CLIENT 007",
+      "Gender": "",
+      "PhoneNumber": "0550 07 49 91",
+      "LastDebtAt": "2026-06-24T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-24T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "WEDNESDAY, 24 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 1459,
+      "Name": "CLIENT 007 Pr\u00E9nom 7",
+      "LastDebt": "WEDNESDAY, 24 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 8",
+      "FamilyName": "CLIENT 008",
+      "Gender": "",
+      "PhoneNumber": "0550 08 56 04",
+      "LastDebtAt": "2026-06-23T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-23T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 23 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 1596,
+      "Name": "CLIENT 008 Pr\u00E9nom 8",
+      "LastDebt": "TUESDAY, 23 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 9",
+      "FamilyName": "CLIENT 009",
+      "Gender": "",
+      "PhoneNumber": "0550 09 63 17",
+      "LastDebtAt": "2026-06-22T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-22T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 22 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 1733,
+      "Name": "CLIENT 009 Pr\u00E9nom 9",
+      "LastDebt": "MONDAY, 22 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 10",
+      "FamilyName": "CLIENT 010",
+      "Gender": "",
+      "PhoneNumber": "0550 10 70 30",
+      "LastDebtAt": "2026-06-21T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-21T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 21 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 1870,
+      "Name": "CLIENT 010 Pr\u00E9nom 10",
+      "LastDebt": "SUNDAY, 21 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 11",
+      "FamilyName": "CLIENT 011",
+      "Gender": "",
+      "PhoneNumber": "0550 11 77 43",
+      "LastDebtAt": "2026-06-20T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-20T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 20 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 2007,
+      "Name": "CLIENT 011 Pr\u00E9nom 11",
+      "LastDebt": "SATURDAY, 20 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 12",
+      "FamilyName": "CLIENT 012",
+      "Gender": "",
+      "PhoneNumber": "0550 12 84 56",
+      "LastDebtAt": "2026-06-19T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-19T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 19 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 2144,
+      "Name": "CLIENT 012 Pr\u00E9nom 12",
+      "LastDebt": "FRIDAY, 19 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 13",
+      "FamilyName": "CLIENT 013",
+      "Gender": "",
+      "PhoneNumber": "0550 13 91 69",
+      "LastDebtAt": "2026-06-18T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-18T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "THURSDAY, 18 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 2281,
+      "Name": "CLIENT 013 Pr\u00E9nom 13",
+      "LastDebt": "THURSDAY, 18 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 14",
+      "FamilyName": "CLIENT 014",
+      "Gender": "",
+      "PhoneNumber": "0550 14 98 82",
+      "LastDebtAt": "2026-06-17T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-17T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "WEDNESDAY, 17 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 2418,
+      "Name": "CLIENT 014 Pr\u00E9nom 14",
+      "LastDebt": "WEDNESDAY, 17 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 15",
+      "FamilyName": "CLIENT 015",
+      "Gender": "",
+      "PhoneNumber": "0550 15 05 95",
+      "LastDebtAt": "2026-06-16T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-16T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 16 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 2555,
+      "Name": "CLIENT 015 Pr\u00E9nom 15",
+      "LastDebt": "TUESDAY, 16 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 16",
+      "FamilyName": "CLIENT 016",
+      "Gender": "",
+      "PhoneNumber": "0550 16 12 08",
+      "LastDebtAt": "2026-06-15T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-15T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 15 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 2692,
+      "Name": "CLIENT 016 Pr\u00E9nom 16",
+      "LastDebt": "MONDAY, 15 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 17",
+      "FamilyName": "CLIENT 017",
+      "Gender": "",
+      "PhoneNumber": "0550 17 19 21",
+      "LastDebtAt": "2026-06-14T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-14T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 14 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 2829,
+      "Name": "CLIENT 017 Pr\u00E9nom 17",
+      "LastDebt": "SUNDAY, 14 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 18",
+      "FamilyName": "CLIENT 018",
+      "Gender": "",
+      "PhoneNumber": "0550 18 26 34",
+      "LastDebtAt": "2026-06-13T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-13T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 13 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 2966,
+      "Name": "CLIENT 018 Pr\u00E9nom 18",
+      "LastDebt": "SATURDAY, 13 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 19",
+      "FamilyName": "CLIENT 019",
+      "Gender": "",
+      "PhoneNumber": "0550 19 33 47",
+      "LastDebtAt": "2026-06-12T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-12T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 12 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 3103,
+      "Name": "CLIENT 019 Pr\u00E9nom 19",
+      "LastDebt": "FRIDAY, 12 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 20",
+      "FamilyName": "CLIENT 020",
+      "Gender": "",
+      "PhoneNumber": "0550 20 40 60",
+      "LastDebtAt": "2026-06-11T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-11T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "THURSDAY, 11 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 3240,
+      "Name": "CLIENT 020 Pr\u00E9nom 20",
+      "LastDebt": "THURSDAY, 11 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 21",
+      "FamilyName": "CLIENT 021",
+      "Gender": "",
+      "PhoneNumber": "0550 21 47 73",
+      "LastDebtAt": "2026-06-10T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-10T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "WEDNESDAY, 10 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 3377,
+      "Name": "CLIENT 021 Pr\u00E9nom 21",
+      "LastDebt": "WEDNESDAY, 10 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 22",
+      "FamilyName": "CLIENT 022",
+      "Gender": "",
+      "PhoneNumber": "0550 22 54 86",
+      "LastDebtAt": "2026-06-09T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-09T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 09 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 3514,
+      "Name": "CLIENT 022 Pr\u00E9nom 22",
+      "LastDebt": "TUESDAY, 09 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 23",
+      "FamilyName": "CLIENT 023",
+      "Gender": "",
+      "PhoneNumber": "0550 23 61 99",
+      "LastDebtAt": "2026-06-08T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-08T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 08 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 3651,
+      "Name": "CLIENT 023 Pr\u00E9nom 23",
+      "LastDebt": "MONDAY, 08 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 24",
+      "FamilyName": "CLIENT 024",
+      "Gender": "",
+      "PhoneNumber": "0550 24 68 12",
+      "LastDebtAt": "2026-06-07T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-07T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 07 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 3788,
+      "Name": "CLIENT 024 Pr\u00E9nom 24",
+      "LastDebt": "SUNDAY, 07 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 25",
+      "FamilyName": "CLIENT 025",
+      "Gender": "",
+      "PhoneNumber": "0550 25 75 25",
+      "LastDebtAt": "2026-06-06T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-06T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 06 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 3925,
+      "Name": "CLIENT 025 Pr\u00E9nom 25",
+      "LastDebt": "SATURDAY, 06 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 26",
+      "FamilyName": "CLIENT 026",
+      "Gender": "",
+      "PhoneNumber": "0550 26 82 38",
+      "LastDebtAt": "2026-06-05T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-05T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 05 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 4062,
+      "Name": "CLIENT 026 Pr\u00E9nom 26",
+      "LastDebt": "FRIDAY, 05 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 27",
+      "FamilyName": "CLIENT 027",
+      "Gender": "",
+      "PhoneNumber": "0550 27 89 51",
+      "LastDebtAt": "2026-06-04T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-04T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "THURSDAY, 04 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 4199,
+      "Name": "CLIENT 027 Pr\u00E9nom 27",
+      "LastDebt": "THURSDAY, 04 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 28",
+      "FamilyName": "CLIENT 028",
+      "Gender": "",
+      "PhoneNumber": "0550 28 96 64",
+      "LastDebtAt": "2026-07-01T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-07-01T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "WEDNESDAY, 01 JULY 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 4336,
+      "Name": "CLIENT 028 Pr\u00E9nom 28",
+      "LastDebt": "WEDNESDAY, 01 JULY 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 29",
+      "FamilyName": "CLIENT 029",
+      "Gender": "",
+      "PhoneNumber": "0550 29 03 77",
+      "LastDebtAt": "2026-06-30T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-30T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 30 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 4473,
+      "Name": "CLIENT 029 Pr\u00E9nom 29",
+      "LastDebt": "TUESDAY, 30 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 30",
+      "FamilyName": "CLIENT 030",
+      "Gender": "",
+      "PhoneNumber": "0550 30 10 90",
+      "LastDebtAt": "2026-06-29T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-29T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 29 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 4610,
+      "Name": "CLIENT 030 Pr\u00E9nom 30",
+      "LastDebt": "MONDAY, 29 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 31",
+      "FamilyName": "CLIENT 031",
+      "Gender": "",
+      "PhoneNumber": "0550 31 17 03",
+      "LastDebtAt": "2026-06-28T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-28T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 28 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 4747,
+      "Name": "CLIENT 031 Pr\u00E9nom 31",
+      "LastDebt": "SUNDAY, 28 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 32",
+      "FamilyName": "CLIENT 032",
+      "Gender": "",
+      "PhoneNumber": "0550 32 24 16",
+      "LastDebtAt": "2026-06-27T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-27T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 27 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 4884,
+      "Name": "CLIENT 032 Pr\u00E9nom 32",
+      "LastDebt": "SATURDAY, 27 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 33",
+      "FamilyName": "CLIENT 033",
+      "Gender": "",
+      "PhoneNumber": "0550 33 31 29",
+      "LastDebtAt": "2026-06-26T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-26T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 26 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 5021,
+      "Name": "CLIENT 033 Pr\u00E9nom 33",
+      "LastDebt": "FRIDAY, 26 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 34",
+      "FamilyName": "CLIENT 034",
+      "Gender": "",
+      "PhoneNumber": "0550 34 38 42",
+      "LastDebtAt": "2026-06-25T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-25T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "THURSDAY, 25 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 5158,
+      "Name": "CLIENT 034 Pr\u00E9nom 34",
+      "LastDebt": "THURSDAY, 25 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 35",
+      "FamilyName": "CLIENT 035",
+      "Gender": "",
+      "PhoneNumber": "0550 35 45 55",
+      "LastDebtAt": "2026-06-24T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-24T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "WEDNESDAY, 24 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 5295,
+      "Name": "CLIENT 035 Pr\u00E9nom 35",
+      "LastDebt": "WEDNESDAY, 24 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 36",
+      "FamilyName": "CLIENT 036",
+      "Gender": "",
+      "PhoneNumber": "0550 36 52 68",
+      "LastDebtAt": "2026-06-23T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-23T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 23 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 5432,
+      "Name": "CLIENT 036 Pr\u00E9nom 36",
+      "LastDebt": "TUESDAY, 23 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 37",
+      "FamilyName": "CLIENT 037",
+      "Gender": "",
+      "PhoneNumber": "0550 37 59 81",
+      "LastDebtAt": "2026-06-22T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-22T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 22 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 5569,
+      "Name": "CLIENT 037 Pr\u00E9nom 37",
+      "LastDebt": "MONDAY, 22 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 38",
+      "FamilyName": "CLIENT 038",
+      "Gender": "",
+      "PhoneNumber": "0550 38 66 94",
+      "LastDebtAt": "2026-06-21T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-21T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 21 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 5706,
+      "Name": "CLIENT 038 Pr\u00E9nom 38",
+      "LastDebt": "SUNDAY, 21 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 39",
+      "FamilyName": "CLIENT 039",
+      "Gender": "",
+      "PhoneNumber": "0550 39 73 07",
+      "LastDebtAt": "2026-06-20T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-20T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 20 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 5843,
+      "Name": "CLIENT 039 Pr\u00E9nom 39",
+      "LastDebt": "SATURDAY, 20 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 40",
+      "FamilyName": "CLIENT 040",
+      "Gender": "",
+      "PhoneNumber": "0550 40 80 20",
+      "LastDebtAt": "2026-06-19T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-19T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 19 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 5980,
+      "Name": "CLIENT 040 Pr\u00E9nom 40",
+      "LastDebt": "FRIDAY, 19 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 41",
+      "FamilyName": "CLIENT 041",
+      "Gender": "",
+      "PhoneNumber": "0550 41 87 33",
+      "LastDebtAt": "2026-06-18T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-18T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "THURSDAY, 18 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 6117,
+      "Name": "CLIENT 041 Pr\u00E9nom 41",
+      "LastDebt": "THURSDAY, 18 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 42",
+      "FamilyName": "CLIENT 042",
+      "Gender": "",
+      "PhoneNumber": "0550 42 94 46",
+      "LastDebtAt": "2026-06-17T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-17T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "WEDNESDAY, 17 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 6254,
+      "Name": "CLIENT 042 Pr\u00E9nom 42",
+      "LastDebt": "WEDNESDAY, 17 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 43",
+      "FamilyName": "CLIENT 043",
+      "Gender": "",
+      "PhoneNumber": "0550 43 01 59",
+      "LastDebtAt": "2026-06-16T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-16T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 16 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 6391,
+      "Name": "CLIENT 043 Pr\u00E9nom 43",
+      "LastDebt": "TUESDAY, 16 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 44",
+      "FamilyName": "CLIENT 044",
+      "Gender": "",
+      "PhoneNumber": "0550 44 08 72",
+      "LastDebtAt": "2026-06-15T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-15T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 15 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 6528,
+      "Name": "CLIENT 044 Pr\u00E9nom 44",
+      "LastDebt": "MONDAY, 15 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 45",
+      "FamilyName": "CLIENT 045",
+      "Gender": "",
+      "PhoneNumber": "0550 45 15 85",
+      "LastDebtAt": "2026-06-14T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-14T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 14 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 6665,
+      "Name": "CLIENT 045 Pr\u00E9nom 45",
+      "LastDebt": "SUNDAY, 14 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 46",
+      "FamilyName": "CLIENT 046",
+      "Gender": "",
+      "PhoneNumber": "0550 46 22 98",
+      "LastDebtAt": "2026-06-13T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-13T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 13 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 6802,
+      "Name": "CLIENT 046 Pr\u00E9nom 46",
+      "LastDebt": "SATURDAY, 13 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 47",
+      "FamilyName": "CLIENT 047",
+      "Gender": "",
+      "PhoneNumber": "0550 47 29 11",
+      "LastDebtAt": "2026-06-12T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-12T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 12 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 6939,
+      "Name": "CLIENT 047 Pr\u00E9nom 47",
+      "LastDebt": "FRIDAY, 12 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 48",
+      "FamilyName": "CLIENT 048",
+      "Gender": "",
+      "PhoneNumber": "0550 48 36 24",
+      "LastDebtAt": "2026-06-11T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-11T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "THURSDAY, 11 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 7076,
+      "Name": "CLIENT 048 Pr\u00E9nom 48",
+      "LastDebt": "THURSDAY, 11 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 49",
+      "FamilyName": "CLIENT 049",
+      "Gender": "",
+      "PhoneNumber": "0550 49 43 37",
+      "LastDebtAt": "2026-06-10T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-10T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "WEDNESDAY, 10 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 7213,
+      "Name": "CLIENT 049 Pr\u00E9nom 49",
+      "LastDebt": "WEDNESDAY, 10 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 50",
+      "FamilyName": "CLIENT 050",
+      "Gender": "",
+      "PhoneNumber": "0550 50 50 50",
+      "LastDebtAt": "2026-06-09T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-09T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 09 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 7350,
+      "Name": "CLIENT 050 Pr\u00E9nom 50",
+      "LastDebt": "TUESDAY, 09 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 51",
+      "FamilyName": "CLIENT 051",
+      "Gender": "",
+      "PhoneNumber": "0550 51 57 63",
+      "LastDebtAt": "2026-06-08T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-08T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 08 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 7487,
+      "Name": "CLIENT 051 Pr\u00E9nom 51",
+      "LastDebt": "MONDAY, 08 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 52",
+      "FamilyName": "CLIENT 052",
+      "Gender": "",
+      "PhoneNumber": "0550 52 64 76",
+      "LastDebtAt": "2026-06-07T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-07T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 07 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 7624,
+      "Name": "CLIENT 052 Pr\u00E9nom 52",
+      "LastDebt": "SUNDAY, 07 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 53",
+      "FamilyName": "CLIENT 053",
+      "Gender": "",
+      "PhoneNumber": "0550 53 71 89",
+      "LastDebtAt": "2026-06-06T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-06T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 06 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 7761,
+      "Name": "CLIENT 053 Pr\u00E9nom 53",
+      "LastDebt": "SATURDAY, 06 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 54",
+      "FamilyName": "CLIENT 054",
+      "Gender": "",
+      "PhoneNumber": "0550 54 78 02",
+      "LastDebtAt": "2026-06-05T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-05T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 05 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 7898,
+      "Name": "CLIENT 054 Pr\u00E9nom 54",
+      "LastDebt": "FRIDAY, 05 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 55",
+      "FamilyName": "CLIENT 055",
+      "Gender": "",
+      "PhoneNumber": "0550 55 85 15",
+      "LastDebtAt": "2026-06-04T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-04T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "THURSDAY, 04 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 8035,
+      "Name": "CLIENT 055 Pr\u00E9nom 55",
+      "LastDebt": "THURSDAY, 04 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 56",
+      "FamilyName": "CLIENT 056",
+      "Gender": "",
+      "PhoneNumber": "0550 56 92 28",
+      "LastDebtAt": "2026-07-01T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-07-01T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "WEDNESDAY, 01 JULY 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 8172,
+      "Name": "CLIENT 056 Pr\u00E9nom 56",
+      "LastDebt": "WEDNESDAY, 01 JULY 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 57",
+      "FamilyName": "CLIENT 057",
+      "Gender": "",
+      "PhoneNumber": "0550 57 99 41",
+      "LastDebtAt": "2026-06-30T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-30T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 30 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 8309,
+      "Name": "CLIENT 057 Pr\u00E9nom 57",
+      "LastDebt": "TUESDAY, 30 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 58",
+      "FamilyName": "CLIENT 058",
+      "Gender": "",
+      "PhoneNumber": "0550 58 06 54",
+      "LastDebtAt": "2026-06-29T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-29T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 29 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 8446,
+      "Name": "CLIENT 058 Pr\u00E9nom 58",
+      "LastDebt": "MONDAY, 29 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 59",
+      "FamilyName": "CLIENT 059",
+      "Gender": "",
+      "PhoneNumber": "0550 59 13 67",
+      "LastDebtAt": "2026-06-28T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-28T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 28 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 8583,
+      "Name": "CLIENT 059 Pr\u00E9nom 59",
+      "LastDebt": "SUNDAY, 28 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 60",
+      "FamilyName": "CLIENT 060",
+      "Gender": "",
+      "PhoneNumber": "0550 60 20 80",
+      "LastDebtAt": "2026-06-27T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-27T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 27 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 8720,
+      "Name": "CLIENT 060 Pr\u00E9nom 60",
+      "LastDebt": "SATURDAY, 27 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 61",
+      "FamilyName": "CLIENT 061",
+      "Gender": "",
+      "PhoneNumber": "0550 61 27 93",
+      "LastDebtAt": "2026-06-26T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-26T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 26 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 8857,
+      "Name": "CLIENT 061 Pr\u00E9nom 61",
+      "LastDebt": "FRIDAY, 26 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 62",
+      "FamilyName": "CLIENT 062",
+      "Gender": "",
+      "PhoneNumber": "0550 62 34 06",
+      "LastDebtAt": "2026-06-25T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-25T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "THURSDAY, 25 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 8994,
+      "Name": "CLIENT 062 Pr\u00E9nom 62",
+      "LastDebt": "THURSDAY, 25 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 63",
+      "FamilyName": "CLIENT 063",
+      "Gender": "",
+      "PhoneNumber": "0550 63 41 19",
+      "LastDebtAt": "2026-06-24T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-24T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "WEDNESDAY, 24 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 9131,
+      "Name": "CLIENT 063 Pr\u00E9nom 63",
+      "LastDebt": "WEDNESDAY, 24 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 64",
+      "FamilyName": "CLIENT 064",
+      "Gender": "",
+      "PhoneNumber": "0550 64 48 32",
+      "LastDebtAt": "2026-06-23T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-23T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 23 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 9268,
+      "Name": "CLIENT 064 Pr\u00E9nom 64",
+      "LastDebt": "TUESDAY, 23 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 65",
+      "FamilyName": "CLIENT 065",
+      "Gender": "",
+      "PhoneNumber": "0550 65 55 45",
+      "LastDebtAt": "2026-06-22T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-22T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 22 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 9405,
+      "Name": "CLIENT 065 Pr\u00E9nom 65",
+      "LastDebt": "MONDAY, 22 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 66",
+      "FamilyName": "CLIENT 066",
+      "Gender": "",
+      "PhoneNumber": "0550 66 62 58",
+      "LastDebtAt": "2026-06-21T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-21T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 21 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 9542,
+      "Name": "CLIENT 066 Pr\u00E9nom 66",
+      "LastDebt": "SUNDAY, 21 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 67",
+      "FamilyName": "CLIENT 067",
+      "Gender": "",
+      "PhoneNumber": "0550 67 69 71",
+      "LastDebtAt": "2026-06-20T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-20T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 20 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 9679,
+      "Name": "CLIENT 067 Pr\u00E9nom 67",
+      "LastDebt": "SATURDAY, 20 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 68",
+      "FamilyName": "CLIENT 068",
+      "Gender": "",
+      "PhoneNumber": "0550 68 76 84",
+      "LastDebtAt": "2026-06-19T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-19T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 19 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 9816,
+      "Name": "CLIENT 068 Pr\u00E9nom 68",
+      "LastDebt": "FRIDAY, 19 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 69",
+      "FamilyName": "CLIENT 069",
+      "Gender": "",
+      "PhoneNumber": "0550 69 83 97",
+      "LastDebtAt": "2026-06-18T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-18T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "THURSDAY, 18 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 9953,
+      "Name": "CLIENT 069 Pr\u00E9nom 69",
+      "LastDebt": "THURSDAY, 18 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 70",
+      "FamilyName": "CLIENT 070",
+      "Gender": "",
+      "PhoneNumber": "0550 70 90 10",
+      "LastDebtAt": "2026-06-17T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-17T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "WEDNESDAY, 17 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 10090,
+      "Name": "CLIENT 070 Pr\u00E9nom 70",
+      "LastDebt": "WEDNESDAY, 17 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 71",
+      "FamilyName": "CLIENT 071",
+      "Gender": "",
+      "PhoneNumber": "0550 71 97 23",
+      "LastDebtAt": "2026-06-16T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-16T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 16 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 10227,
+      "Name": "CLIENT 071 Pr\u00E9nom 71",
+      "LastDebt": "TUESDAY, 16 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 72",
+      "FamilyName": "CLIENT 072",
+      "Gender": "",
+      "PhoneNumber": "0550 72 04 36",
+      "LastDebtAt": "2026-06-15T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-15T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 15 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 10364,
+      "Name": "CLIENT 072 Pr\u00E9nom 72",
+      "LastDebt": "MONDAY, 15 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 73",
+      "FamilyName": "CLIENT 073",
+      "Gender": "",
+      "PhoneNumber": "0550 73 11 49",
+      "LastDebtAt": "2026-06-14T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-14T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 14 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 10501,
+      "Name": "CLIENT 073 Pr\u00E9nom 73",
+      "LastDebt": "SUNDAY, 14 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 74",
+      "FamilyName": "CLIENT 074",
+      "Gender": "",
+      "PhoneNumber": "0550 74 18 62",
+      "LastDebtAt": "2026-06-13T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-13T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 13 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 10638,
+      "Name": "CLIENT 074 Pr\u00E9nom 74",
+      "LastDebt": "SATURDAY, 13 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 75",
+      "FamilyName": "CLIENT 075",
+      "Gender": "",
+      "PhoneNumber": "0550 75 25 75",
+      "LastDebtAt": "2026-06-12T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-12T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 12 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 10775,
+      "Name": "CLIENT 075 Pr\u00E9nom 75",
+      "LastDebt": "FRIDAY, 12 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 76",
+      "FamilyName": "CLIENT 076",
+      "Gender": "",
+      "PhoneNumber": "0550 76 32 88",
+      "LastDebtAt": "2026-06-11T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-11T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "THURSDAY, 11 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 10912,
+      "Name": "CLIENT 076 Pr\u00E9nom 76",
+      "LastDebt": "THURSDAY, 11 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 77",
+      "FamilyName": "CLIENT 077",
+      "Gender": "",
+      "PhoneNumber": "0550 77 39 01",
+      "LastDebtAt": "2026-06-10T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-10T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "WEDNESDAY, 10 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 11049,
+      "Name": "CLIENT 077 Pr\u00E9nom 77",
+      "LastDebt": "WEDNESDAY, 10 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 78",
+      "FamilyName": "CLIENT 078",
+      "Gender": "",
+      "PhoneNumber": "0550 78 46 14",
+      "LastDebtAt": "2026-06-09T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-09T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 09 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 11186,
+      "Name": "CLIENT 078 Pr\u00E9nom 78",
+      "LastDebt": "TUESDAY, 09 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 79",
+      "FamilyName": "CLIENT 079",
+      "Gender": "",
+      "PhoneNumber": "0550 79 53 27",
+      "LastDebtAt": "2026-06-08T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-08T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 08 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 11323,
+      "Name": "CLIENT 079 Pr\u00E9nom 79",
+      "LastDebt": "MONDAY, 08 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 80",
+      "FamilyName": "CLIENT 080",
+      "Gender": "",
+      "PhoneNumber": "0550 80 60 40",
+      "LastDebtAt": "2026-06-07T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-07T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 07 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 11460,
+      "Name": "CLIENT 080 Pr\u00E9nom 80",
+      "LastDebt": "SUNDAY, 07 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 81",
+      "FamilyName": "CLIENT 081",
+      "Gender": "",
+      "PhoneNumber": "0550 81 67 53",
+      "LastDebtAt": "2026-06-06T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-06T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 06 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 11597,
+      "Name": "CLIENT 081 Pr\u00E9nom 81",
+      "LastDebt": "SATURDAY, 06 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 82",
+      "FamilyName": "CLIENT 082",
+      "Gender": "",
+      "PhoneNumber": "0550 82 74 66",
+      "LastDebtAt": "2026-06-05T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-05T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 05 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 11734,
+      "Name": "CLIENT 082 Pr\u00E9nom 82",
+      "LastDebt": "FRIDAY, 05 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 83",
+      "FamilyName": "CLIENT 083",
+      "Gender": "",
+      "PhoneNumber": "0550 83 81 79",
+      "LastDebtAt": "2026-06-04T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-04T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "THURSDAY, 04 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 11871,
+      "Name": "CLIENT 083 Pr\u00E9nom 83",
+      "LastDebt": "THURSDAY, 04 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 84",
+      "FamilyName": "CLIENT 084",
+      "Gender": "",
+      "PhoneNumber": "0550 84 88 92",
+      "LastDebtAt": "2026-07-01T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-07-01T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "WEDNESDAY, 01 JULY 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 12008,
+      "Name": "CLIENT 084 Pr\u00E9nom 84",
+      "LastDebt": "WEDNESDAY, 01 JULY 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 85",
+      "FamilyName": "CLIENT 085",
+      "Gender": "",
+      "PhoneNumber": "0550 85 95 05",
+      "LastDebtAt": "2026-06-30T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-30T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 30 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 12145,
+      "Name": "CLIENT 085 Pr\u00E9nom 85",
+      "LastDebt": "TUESDAY, 30 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 86",
+      "FamilyName": "CLIENT 086",
+      "Gender": "",
+      "PhoneNumber": "0550 86 02 18",
+      "LastDebtAt": "2026-06-29T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-29T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 29 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 12282,
+      "Name": "CLIENT 086 Pr\u00E9nom 86",
+      "LastDebt": "MONDAY, 29 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 87",
+      "FamilyName": "CLIENT 087",
+      "Gender": "",
+      "PhoneNumber": "0550 87 09 31",
+      "LastDebtAt": "2026-06-28T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-28T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 28 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 12419,
+      "Name": "CLIENT 087 Pr\u00E9nom 87",
+      "LastDebt": "SUNDAY, 28 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 88",
+      "FamilyName": "CLIENT 088",
+      "Gender": "",
+      "PhoneNumber": "0550 88 16 44",
+      "LastDebtAt": "2026-06-27T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-27T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 27 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 12556,
+      "Name": "CLIENT 088 Pr\u00E9nom 88",
+      "LastDebt": "SATURDAY, 27 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 89",
+      "FamilyName": "CLIENT 089",
+      "Gender": "",
+      "PhoneNumber": "0550 89 23 57",
+      "LastDebtAt": "2026-06-26T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-26T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 26 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 12693,
+      "Name": "CLIENT 089 Pr\u00E9nom 89",
+      "LastDebt": "FRIDAY, 26 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 90",
+      "FamilyName": "CLIENT 090",
+      "Gender": "",
+      "PhoneNumber": "0550 90 30 70",
+      "LastDebtAt": "2026-06-25T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-25T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "THURSDAY, 25 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 12830,
+      "Name": "CLIENT 090 Pr\u00E9nom 90",
+      "LastDebt": "THURSDAY, 25 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 91",
+      "FamilyName": "CLIENT 091",
+      "Gender": "",
+      "PhoneNumber": "0550 91 37 83",
+      "LastDebtAt": "2026-06-24T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-24T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "WEDNESDAY, 24 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 12967,
+      "Name": "CLIENT 091 Pr\u00E9nom 91",
+      "LastDebt": "WEDNESDAY, 24 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 92",
+      "FamilyName": "CLIENT 092",
+      "Gender": "",
+      "PhoneNumber": "0550 92 44 96",
+      "LastDebtAt": "2026-06-23T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-23T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 23 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 13104,
+      "Name": "CLIENT 092 Pr\u00E9nom 92",
+      "LastDebt": "TUESDAY, 23 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 93",
+      "FamilyName": "CLIENT 093",
+      "Gender": "",
+      "PhoneNumber": "0550 93 51 09",
+      "LastDebtAt": "2026-06-22T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-22T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 22 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 13241,
+      "Name": "CLIENT 093 Pr\u00E9nom 93",
+      "LastDebt": "MONDAY, 22 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 94",
+      "FamilyName": "CLIENT 094",
+      "Gender": "",
+      "PhoneNumber": "0550 94 58 22",
+      "LastDebtAt": "2026-06-21T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-21T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 21 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 13378,
+      "Name": "CLIENT 094 Pr\u00E9nom 94",
+      "LastDebt": "SUNDAY, 21 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 95",
+      "FamilyName": "CLIENT 095",
+      "Gender": "",
+      "PhoneNumber": "0550 95 65 35",
+      "LastDebtAt": "2026-06-20T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-20T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 20 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 13515,
+      "Name": "CLIENT 095 Pr\u00E9nom 95",
+      "LastDebt": "SATURDAY, 20 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 96",
+      "FamilyName": "CLIENT 096",
+      "Gender": "",
+      "PhoneNumber": "0550 96 72 48",
+      "LastDebtAt": "2026-06-19T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-19T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 19 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 13652,
+      "Name": "CLIENT 096 Pr\u00E9nom 96",
+      "LastDebt": "FRIDAY, 19 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 97",
+      "FamilyName": "CLIENT 097",
+      "Gender": "",
+      "PhoneNumber": "0550 97 79 61",
+      "LastDebtAt": "2026-06-18T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-18T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "THURSDAY, 18 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 13789,
+      "Name": "CLIENT 097 Pr\u00E9nom 97",
+      "LastDebt": "THURSDAY, 18 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 98",
+      "FamilyName": "CLIENT 098",
+      "Gender": "",
+      "PhoneNumber": "0550 98 86 74",
+      "LastDebtAt": "2026-06-17T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-17T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "WEDNESDAY, 17 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 13926,
+      "Name": "CLIENT 098 Pr\u00E9nom 98",
+      "LastDebt": "WEDNESDAY, 17 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 99",
+      "FamilyName": "CLIENT 099",
+      "Gender": "",
+      "PhoneNumber": "0550 99 93 87",
+      "LastDebtAt": "2026-06-16T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-16T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 16 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 14063,
+      "Name": "CLIENT 099 Pr\u00E9nom 99",
+      "LastDebt": "TUESDAY, 16 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 100",
+      "FamilyName": "CLIENT 100",
+      "Gender": "",
+      "PhoneNumber": "0550 00 00 00",
+      "LastDebtAt": "2026-06-15T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-15T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 15 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 14200,
+      "Name": "CLIENT 100 Pr\u00E9nom 100",
+      "LastDebt": "MONDAY, 15 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 101",
+      "FamilyName": "CLIENT 101",
+      "Gender": "",
+      "PhoneNumber": "0550 01 07 13",
+      "LastDebtAt": "2026-06-14T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-14T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 14 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 14337,
+      "Name": "CLIENT 101 Pr\u00E9nom 101",
+      "LastDebt": "SUNDAY, 14 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 102",
+      "FamilyName": "CLIENT 102",
+      "Gender": "",
+      "PhoneNumber": "0550 02 14 26",
+      "LastDebtAt": "2026-06-13T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-13T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 13 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 14474,
+      "Name": "CLIENT 102 Pr\u00E9nom 102",
+      "LastDebt": "SATURDAY, 13 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 103",
+      "FamilyName": "CLIENT 103",
+      "Gender": "",
+      "PhoneNumber": "0550 03 21 39",
+      "LastDebtAt": "2026-06-12T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-12T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 12 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 14611,
+      "Name": "CLIENT 103 Pr\u00E9nom 103",
+      "LastDebt": "FRIDAY, 12 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 104",
+      "FamilyName": "CLIENT 104",
+      "Gender": "",
+      "PhoneNumber": "0550 04 28 52",
+      "LastDebtAt": "2026-06-11T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-11T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "THURSDAY, 11 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 14748,
+      "Name": "CLIENT 104 Pr\u00E9nom 104",
+      "LastDebt": "THURSDAY, 11 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 105",
+      "FamilyName": "CLIENT 105",
+      "Gender": "",
+      "PhoneNumber": "0550 05 35 65",
+      "LastDebtAt": "2026-06-10T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-10T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "WEDNESDAY, 10 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 14885,
+      "Name": "CLIENT 105 Pr\u00E9nom 105",
+      "LastDebt": "WEDNESDAY, 10 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 106",
+      "FamilyName": "CLIENT 106",
+      "Gender": "",
+      "PhoneNumber": "0550 06 42 78",
+      "LastDebtAt": "2026-06-09T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-09T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 09 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 15022,
+      "Name": "CLIENT 106 Pr\u00E9nom 106",
+      "LastDebt": "TUESDAY, 09 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 107",
+      "FamilyName": "CLIENT 107",
+      "Gender": "",
+      "PhoneNumber": "0550 07 49 91",
+      "LastDebtAt": "2026-06-08T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-08T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 08 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 15159,
+      "Name": "CLIENT 107 Pr\u00E9nom 107",
+      "LastDebt": "MONDAY, 08 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 108",
+      "FamilyName": "CLIENT 108",
+      "Gender": "",
+      "PhoneNumber": "0550 08 56 04",
+      "LastDebtAt": "2026-06-07T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-07T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 07 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 15296,
+      "Name": "CLIENT 108 Pr\u00E9nom 108",
+      "LastDebt": "SUNDAY, 07 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 109",
+      "FamilyName": "CLIENT 109",
+      "Gender": "",
+      "PhoneNumber": "0550 09 63 17",
+      "LastDebtAt": "2026-06-06T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-06T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 06 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 15433,
+      "Name": "CLIENT 109 Pr\u00E9nom 109",
+      "LastDebt": "SATURDAY, 06 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 110",
+      "FamilyName": "CLIENT 110",
+      "Gender": "",
+      "PhoneNumber": "0550 10 70 30",
+      "LastDebtAt": "2026-06-05T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-05T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 05 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 15570,
+      "Name": "CLIENT 110 Pr\u00E9nom 110",
+      "LastDebt": "FRIDAY, 05 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 111",
+      "FamilyName": "CLIENT 111",
+      "Gender": "",
+      "PhoneNumber": "0550 11 77 43",
+      "LastDebtAt": "2026-06-04T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-04T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "THURSDAY, 04 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 15707,
+      "Name": "CLIENT 111 Pr\u00E9nom 111",
+      "LastDebt": "THURSDAY, 04 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 112",
+      "FamilyName": "CLIENT 112",
+      "Gender": "",
+      "PhoneNumber": "0550 12 84 56",
+      "LastDebtAt": "2026-07-01T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-07-01T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "WEDNESDAY, 01 JULY 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 15844,
+      "Name": "CLIENT 112 Pr\u00E9nom 112",
+      "LastDebt": "WEDNESDAY, 01 JULY 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 113",
+      "FamilyName": "CLIENT 113",
+      "Gender": "",
+      "PhoneNumber": "0550 13 91 69",
+      "LastDebtAt": "2026-06-30T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-30T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 30 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 15981,
+      "Name": "CLIENT 113 Pr\u00E9nom 113",
+      "LastDebt": "TUESDAY, 30 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 114",
+      "FamilyName": "CLIENT 114",
+      "Gender": "",
+      "PhoneNumber": "0550 14 98 82",
+      "LastDebtAt": "2026-06-29T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-29T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 29 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 16118,
+      "Name": "CLIENT 114 Pr\u00E9nom 114",
+      "LastDebt": "MONDAY, 29 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 115",
+      "FamilyName": "CLIENT 115",
+      "Gender": "",
+      "PhoneNumber": "0550 15 05 95",
+      "LastDebtAt": "2026-06-28T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-28T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 28 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 16255,
+      "Name": "CLIENT 115 Pr\u00E9nom 115",
+      "LastDebt": "SUNDAY, 28 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 116",
+      "FamilyName": "CLIENT 116",
+      "Gender": "",
+      "PhoneNumber": "0550 16 12 08",
+      "LastDebtAt": "2026-06-27T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-27T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 27 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 16392,
+      "Name": "CLIENT 116 Pr\u00E9nom 116",
+      "LastDebt": "SATURDAY, 27 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 117",
+      "FamilyName": "CLIENT 117",
+      "Gender": "",
+      "PhoneNumber": "0550 17 19 21",
+      "LastDebtAt": "2026-06-26T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-26T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 26 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 16529,
+      "Name": "CLIENT 117 Pr\u00E9nom 117",
+      "LastDebt": "FRIDAY, 26 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 118",
+      "FamilyName": "CLIENT 118",
+      "Gender": "",
+      "PhoneNumber": "0550 18 26 34",
+      "LastDebtAt": "2026-06-25T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-25T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "THURSDAY, 25 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 16666,
+      "Name": "CLIENT 118 Pr\u00E9nom 118",
+      "LastDebt": "THURSDAY, 25 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 119",
+      "FamilyName": "CLIENT 119",
+      "Gender": "",
+      "PhoneNumber": "0550 19 33 47",
+      "LastDebtAt": "2026-06-24T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-24T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "WEDNESDAY, 24 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 16803,
+      "Name": "CLIENT 119 Pr\u00E9nom 119",
+      "LastDebt": "WEDNESDAY, 24 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 120",
+      "FamilyName": "CLIENT 120",
+      "Gender": "",
+      "PhoneNumber": "0550 20 40 60",
+      "LastDebtAt": "2026-06-23T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-23T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 23 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 16940,
+      "Name": "CLIENT 120 Pr\u00E9nom 120",
+      "LastDebt": "TUESDAY, 23 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 121",
+      "FamilyName": "CLIENT 121",
+      "Gender": "",
+      "PhoneNumber": "0550 21 47 73",
+      "LastDebtAt": "2026-06-22T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-22T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 22 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 17077,
+      "Name": "CLIENT 121 Pr\u00E9nom 121",
+      "LastDebt": "MONDAY, 22 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 122",
+      "FamilyName": "CLIENT 122",
+      "Gender": "",
+      "PhoneNumber": "0550 22 54 86",
+      "LastDebtAt": "2026-06-21T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-21T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 21 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 17214,
+      "Name": "CLIENT 122 Pr\u00E9nom 122",
+      "LastDebt": "SUNDAY, 21 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 123",
+      "FamilyName": "CLIENT 123",
+      "Gender": "",
+      "PhoneNumber": "0550 23 61 99",
+      "LastDebtAt": "2026-06-20T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-20T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 20 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 17351,
+      "Name": "CLIENT 123 Pr\u00E9nom 123",
+      "LastDebt": "SATURDAY, 20 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 124",
+      "FamilyName": "CLIENT 124",
+      "Gender": "",
+      "PhoneNumber": "0550 24 68 12",
+      "LastDebtAt": "2026-06-19T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-19T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 19 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 17488,
+      "Name": "CLIENT 124 Pr\u00E9nom 124",
+      "LastDebt": "FRIDAY, 19 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 125",
+      "FamilyName": "CLIENT 125",
+      "Gender": "",
+      "PhoneNumber": "0550 25 75 25",
+      "LastDebtAt": "2026-06-18T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-18T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "THURSDAY, 18 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 17625,
+      "Name": "CLIENT 125 Pr\u00E9nom 125",
+      "LastDebt": "THURSDAY, 18 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 126",
+      "FamilyName": "CLIENT 126",
+      "Gender": "",
+      "PhoneNumber": "0550 26 82 38",
+      "LastDebtAt": "2026-06-17T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-17T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "WEDNESDAY, 17 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 17762,
+      "Name": "CLIENT 126 Pr\u00E9nom 126",
+      "LastDebt": "WEDNESDAY, 17 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 127",
+      "FamilyName": "CLIENT 127",
+      "Gender": "",
+      "PhoneNumber": "0550 27 89 51",
+      "LastDebtAt": "2026-06-16T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-16T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 16 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 17899,
+      "Name": "CLIENT 127 Pr\u00E9nom 127",
+      "LastDebt": "TUESDAY, 16 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 128",
+      "FamilyName": "CLIENT 128",
+      "Gender": "",
+      "PhoneNumber": "0550 28 96 64",
+      "LastDebtAt": "2026-06-15T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-15T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 15 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 18036,
+      "Name": "CLIENT 128 Pr\u00E9nom 128",
+      "LastDebt": "MONDAY, 15 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 129",
+      "FamilyName": "CLIENT 129",
+      "Gender": "",
+      "PhoneNumber": "0550 29 03 77",
+      "LastDebtAt": "2026-06-14T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-14T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 14 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 18173,
+      "Name": "CLIENT 129 Pr\u00E9nom 129",
+      "LastDebt": "SUNDAY, 14 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 130",
+      "FamilyName": "CLIENT 130",
+      "Gender": "",
+      "PhoneNumber": "0550 30 10 90",
+      "LastDebtAt": "2026-06-13T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-13T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 13 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 18310,
+      "Name": "CLIENT 130 Pr\u00E9nom 130",
+      "LastDebt": "SATURDAY, 13 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 131",
+      "FamilyName": "CLIENT 131",
+      "Gender": "",
+      "PhoneNumber": "0550 31 17 03",
+      "LastDebtAt": "2026-06-12T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-12T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 12 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 18447,
+      "Name": "CLIENT 131 Pr\u00E9nom 131",
+      "LastDebt": "FRIDAY, 12 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 132",
+      "FamilyName": "CLIENT 132",
+      "Gender": "",
+      "PhoneNumber": "0550 32 24 16",
+      "LastDebtAt": "2026-06-11T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-11T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "THURSDAY, 11 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 18584,
+      "Name": "CLIENT 132 Pr\u00E9nom 132",
+      "LastDebt": "THURSDAY, 11 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 133",
+      "FamilyName": "CLIENT 133",
+      "Gender": "",
+      "PhoneNumber": "0550 33 31 29",
+      "LastDebtAt": "2026-06-10T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-10T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "WEDNESDAY, 10 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 18721,
+      "Name": "CLIENT 133 Pr\u00E9nom 133",
+      "LastDebt": "WEDNESDAY, 10 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 134",
+      "FamilyName": "CLIENT 134",
+      "Gender": "",
+      "PhoneNumber": "0550 34 38 42",
+      "LastDebtAt": "2026-06-09T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-09T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 09 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 18858,
+      "Name": "CLIENT 134 Pr\u00E9nom 134",
+      "LastDebt": "TUESDAY, 09 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 135",
+      "FamilyName": "CLIENT 135",
+      "Gender": "",
+      "PhoneNumber": "0550 35 45 55",
+      "LastDebtAt": "2026-06-08T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-08T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 08 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 18995,
+      "Name": "CLIENT 135 Pr\u00E9nom 135",
+      "LastDebt": "MONDAY, 08 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 136",
+      "FamilyName": "CLIENT 136",
+      "Gender": "",
+      "PhoneNumber": "0550 36 52 68",
+      "LastDebtAt": "2026-06-07T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-07T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 07 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 19132,
+      "Name": "CLIENT 136 Pr\u00E9nom 136",
+      "LastDebt": "SUNDAY, 07 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 137",
+      "FamilyName": "CLIENT 137",
+      "Gender": "",
+      "PhoneNumber": "0550 37 59 81",
+      "LastDebtAt": "2026-06-06T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-06T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 06 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 19269,
+      "Name": "CLIENT 137 Pr\u00E9nom 137",
+      "LastDebt": "SATURDAY, 06 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 138",
+      "FamilyName": "CLIENT 138",
+      "Gender": "",
+      "PhoneNumber": "0550 38 66 94",
+      "LastDebtAt": "2026-06-05T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-05T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 05 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 19406,
+      "Name": "CLIENT 138 Pr\u00E9nom 138",
+      "LastDebt": "FRIDAY, 05 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 139",
+      "FamilyName": "CLIENT 139",
+      "Gender": "",
+      "PhoneNumber": "0550 39 73 07",
+      "LastDebtAt": "2026-06-04T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-04T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "THURSDAY, 04 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 19543,
+      "Name": "CLIENT 139 Pr\u00E9nom 139",
+      "LastDebt": "THURSDAY, 04 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 140",
+      "FamilyName": "CLIENT 140",
+      "Gender": "",
+      "PhoneNumber": "0550 40 80 20",
+      "LastDebtAt": "2026-07-01T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-07-01T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "WEDNESDAY, 01 JULY 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 19680,
+      "Name": "CLIENT 140 Pr\u00E9nom 140",
+      "LastDebt": "WEDNESDAY, 01 JULY 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 141",
+      "FamilyName": "CLIENT 141",
+      "Gender": "",
+      "PhoneNumber": "0550 41 87 33",
+      "LastDebtAt": "2026-06-30T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-30T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 30 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 19817,
+      "Name": "CLIENT 141 Pr\u00E9nom 141",
+      "LastDebt": "TUESDAY, 30 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 142",
+      "FamilyName": "CLIENT 142",
+      "Gender": "",
+      "PhoneNumber": "0550 42 94 46",
+      "LastDebtAt": "2026-06-29T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-29T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 29 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 19954,
+      "Name": "CLIENT 142 Pr\u00E9nom 142",
+      "LastDebt": "MONDAY, 29 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 143",
+      "FamilyName": "CLIENT 143",
+      "Gender": "",
+      "PhoneNumber": "0550 43 01 59",
+      "LastDebtAt": "2026-06-28T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-28T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 28 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 20091,
+      "Name": "CLIENT 143 Pr\u00E9nom 143",
+      "LastDebt": "SUNDAY, 28 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 144",
+      "FamilyName": "CLIENT 144",
+      "Gender": "",
+      "PhoneNumber": "0550 44 08 72",
+      "LastDebtAt": "2026-06-27T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-27T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 27 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 20228,
+      "Name": "CLIENT 144 Pr\u00E9nom 144",
+      "LastDebt": "SATURDAY, 27 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 145",
+      "FamilyName": "CLIENT 145",
+      "Gender": "",
+      "PhoneNumber": "0550 45 15 85",
+      "LastDebtAt": "2026-06-26T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-26T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 26 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 20365,
+      "Name": "CLIENT 145 Pr\u00E9nom 145",
+      "LastDebt": "FRIDAY, 26 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 146",
+      "FamilyName": "CLIENT 146",
+      "Gender": "",
+      "PhoneNumber": "0550 46 22 98",
+      "LastDebtAt": "2026-06-25T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-25T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "THURSDAY, 25 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 20502,
+      "Name": "CLIENT 146 Pr\u00E9nom 146",
+      "LastDebt": "THURSDAY, 25 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 147",
+      "FamilyName": "CLIENT 147",
+      "Gender": "",
+      "PhoneNumber": "0550 47 29 11",
+      "LastDebtAt": "2026-06-24T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-24T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "WEDNESDAY, 24 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 20639,
+      "Name": "CLIENT 147 Pr\u00E9nom 147",
+      "LastDebt": "WEDNESDAY, 24 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 148",
+      "FamilyName": "CLIENT 148",
+      "Gender": "",
+      "PhoneNumber": "0550 48 36 24",
+      "LastDebtAt": "2026-06-23T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-23T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 23 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 20776,
+      "Name": "CLIENT 148 Pr\u00E9nom 148",
+      "LastDebt": "TUESDAY, 23 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 149",
+      "FamilyName": "CLIENT 149",
+      "Gender": "",
+      "PhoneNumber": "0550 49 43 37",
+      "LastDebtAt": "2026-06-22T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-22T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 22 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 20913,
+      "Name": "CLIENT 149 Pr\u00E9nom 149",
+      "LastDebt": "MONDAY, 22 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 150",
+      "FamilyName": "CLIENT 150",
+      "Gender": "",
+      "PhoneNumber": "0550 50 50 50",
+      "LastDebtAt": "2026-06-21T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-21T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 21 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 21050,
+      "Name": "CLIENT 150 Pr\u00E9nom 150",
+      "LastDebt": "SUNDAY, 21 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 151",
+      "FamilyName": "CLIENT 151",
+      "Gender": "",
+      "PhoneNumber": "0550 51 57 63",
+      "LastDebtAt": "2026-06-20T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-20T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 20 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 21187,
+      "Name": "CLIENT 151 Pr\u00E9nom 151",
+      "LastDebt": "SATURDAY, 20 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 152",
+      "FamilyName": "CLIENT 152",
+      "Gender": "",
+      "PhoneNumber": "0550 52 64 76",
+      "LastDebtAt": "2026-06-19T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-19T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 19 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 21324,
+      "Name": "CLIENT 152 Pr\u00E9nom 152",
+      "LastDebt": "FRIDAY, 19 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 153",
+      "FamilyName": "CLIENT 153",
+      "Gender": "",
+      "PhoneNumber": "0550 53 71 89",
+      "LastDebtAt": "2026-06-18T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-18T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "THURSDAY, 18 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 21461,
+      "Name": "CLIENT 153 Pr\u00E9nom 153",
+      "LastDebt": "THURSDAY, 18 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 154",
+      "FamilyName": "CLIENT 154",
+      "Gender": "",
+      "PhoneNumber": "0550 54 78 02",
+      "LastDebtAt": "2026-06-17T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-17T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "WEDNESDAY, 17 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 21598,
+      "Name": "CLIENT 154 Pr\u00E9nom 154",
+      "LastDebt": "WEDNESDAY, 17 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 155",
+      "FamilyName": "CLIENT 155",
+      "Gender": "",
+      "PhoneNumber": "0550 55 85 15",
+      "LastDebtAt": "2026-06-16T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-16T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 16 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 21735,
+      "Name": "CLIENT 155 Pr\u00E9nom 155",
+      "LastDebt": "TUESDAY, 16 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 156",
+      "FamilyName": "CLIENT 156",
+      "Gender": "",
+      "PhoneNumber": "0550 56 92 28",
+      "LastDebtAt": "2026-06-15T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-15T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 15 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 21872,
+      "Name": "CLIENT 156 Pr\u00E9nom 156",
+      "LastDebt": "MONDAY, 15 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 157",
+      "FamilyName": "CLIENT 157",
+      "Gender": "",
+      "PhoneNumber": "0550 57 99 41",
+      "LastDebtAt": "2026-06-14T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-14T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 14 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 22009,
+      "Name": "CLIENT 157 Pr\u00E9nom 157",
+      "LastDebt": "SUNDAY, 14 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 158",
+      "FamilyName": "CLIENT 158",
+      "Gender": "",
+      "PhoneNumber": "0550 58 06 54",
+      "LastDebtAt": "2026-06-13T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-13T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 13 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 22146,
+      "Name": "CLIENT 158 Pr\u00E9nom 158",
+      "LastDebt": "SATURDAY, 13 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 159",
+      "FamilyName": "CLIENT 159",
+      "Gender": "",
+      "PhoneNumber": "0550 59 13 67",
+      "LastDebtAt": "2026-06-12T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-12T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 12 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 22283,
+      "Name": "CLIENT 159 Pr\u00E9nom 159",
+      "LastDebt": "FRIDAY, 12 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 160",
+      "FamilyName": "CLIENT 160",
+      "Gender": "",
+      "PhoneNumber": "0550 60 20 80",
+      "LastDebtAt": "2026-06-11T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-11T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "THURSDAY, 11 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 22420,
+      "Name": "CLIENT 160 Pr\u00E9nom 160",
+      "LastDebt": "THURSDAY, 11 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 161",
+      "FamilyName": "CLIENT 161",
+      "Gender": "",
+      "PhoneNumber": "0550 61 27 93",
+      "LastDebtAt": "2026-06-10T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-10T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "WEDNESDAY, 10 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 22557,
+      "Name": "CLIENT 161 Pr\u00E9nom 161",
+      "LastDebt": "WEDNESDAY, 10 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 162",
+      "FamilyName": "CLIENT 162",
+      "Gender": "",
+      "PhoneNumber": "0550 62 34 06",
+      "LastDebtAt": "2026-06-09T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-09T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 09 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 22694,
+      "Name": "CLIENT 162 Pr\u00E9nom 162",
+      "LastDebt": "TUESDAY, 09 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 163",
+      "FamilyName": "CLIENT 163",
+      "Gender": "",
+      "PhoneNumber": "0550 63 41 19",
+      "LastDebtAt": "2026-06-08T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-08T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 08 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 22831,
+      "Name": "CLIENT 163 Pr\u00E9nom 163",
+      "LastDebt": "MONDAY, 08 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 164",
+      "FamilyName": "CLIENT 164",
+      "Gender": "",
+      "PhoneNumber": "0550 64 48 32",
+      "LastDebtAt": "2026-06-07T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-07T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 07 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 22968,
+      "Name": "CLIENT 164 Pr\u00E9nom 164",
+      "LastDebt": "SUNDAY, 07 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 165",
+      "FamilyName": "CLIENT 165",
+      "Gender": "",
+      "PhoneNumber": "0550 65 55 45",
+      "LastDebtAt": "2026-06-06T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-06T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 06 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 23105,
+      "Name": "CLIENT 165 Pr\u00E9nom 165",
+      "LastDebt": "SATURDAY, 06 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 166",
+      "FamilyName": "CLIENT 166",
+      "Gender": "",
+      "PhoneNumber": "0550 66 62 58",
+      "LastDebtAt": "2026-06-05T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-05T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 05 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 23242,
+      "Name": "CLIENT 166 Pr\u00E9nom 166",
+      "LastDebt": "FRIDAY, 05 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 167",
+      "FamilyName": "CLIENT 167",
+      "Gender": "",
+      "PhoneNumber": "0550 67 69 71",
+      "LastDebtAt": "2026-06-04T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-04T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "THURSDAY, 04 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 23379,
+      "Name": "CLIENT 167 Pr\u00E9nom 167",
+      "LastDebt": "THURSDAY, 04 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 168",
+      "FamilyName": "CLIENT 168",
+      "Gender": "",
+      "PhoneNumber": "0550 68 76 84",
+      "LastDebtAt": "2026-07-01T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-07-01T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "WEDNESDAY, 01 JULY 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 23516,
+      "Name": "CLIENT 168 Pr\u00E9nom 168",
+      "LastDebt": "WEDNESDAY, 01 JULY 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 169",
+      "FamilyName": "CLIENT 169",
+      "Gender": "",
+      "PhoneNumber": "0550 69 83 97",
+      "LastDebtAt": "2026-06-30T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-30T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 30 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 23653,
+      "Name": "CLIENT 169 Pr\u00E9nom 169",
+      "LastDebt": "TUESDAY, 30 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 170",
+      "FamilyName": "CLIENT 170",
+      "Gender": "",
+      "PhoneNumber": "0550 70 90 10",
+      "LastDebtAt": "2026-06-29T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-29T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 29 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 23790,
+      "Name": "CLIENT 170 Pr\u00E9nom 170",
+      "LastDebt": "MONDAY, 29 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 171",
+      "FamilyName": "CLIENT 171",
+      "Gender": "",
+      "PhoneNumber": "0550 71 97 23",
+      "LastDebtAt": "2026-06-28T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-28T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 28 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 23927,
+      "Name": "CLIENT 171 Pr\u00E9nom 171",
+      "LastDebt": "SUNDAY, 28 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 172",
+      "FamilyName": "CLIENT 172",
+      "Gender": "",
+      "PhoneNumber": "0550 72 04 36",
+      "LastDebtAt": "2026-06-27T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-27T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 27 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 24064,
+      "Name": "CLIENT 172 Pr\u00E9nom 172",
+      "LastDebt": "SATURDAY, 27 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 173",
+      "FamilyName": "CLIENT 173",
+      "Gender": "",
+      "PhoneNumber": "0550 73 11 49",
+      "LastDebtAt": "2026-06-26T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-26T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 26 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 24201,
+      "Name": "CLIENT 173 Pr\u00E9nom 173",
+      "LastDebt": "FRIDAY, 26 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 174",
+      "FamilyName": "CLIENT 174",
+      "Gender": "",
+      "PhoneNumber": "0550 74 18 62",
+      "LastDebtAt": "2026-06-25T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-25T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "THURSDAY, 25 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 24338,
+      "Name": "CLIENT 174 Pr\u00E9nom 174",
+      "LastDebt": "THURSDAY, 25 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 175",
+      "FamilyName": "CLIENT 175",
+      "Gender": "",
+      "PhoneNumber": "0550 75 25 75",
+      "LastDebtAt": "2026-06-24T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-24T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "WEDNESDAY, 24 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 24475,
+      "Name": "CLIENT 175 Pr\u00E9nom 175",
+      "LastDebt": "WEDNESDAY, 24 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 176",
+      "FamilyName": "CLIENT 176",
+      "Gender": "",
+      "PhoneNumber": "0550 76 32 88",
+      "LastDebtAt": "2026-06-23T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-23T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "TUESDAY, 23 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 24612,
+      "Name": "CLIENT 176 Pr\u00E9nom 176",
+      "LastDebt": "TUESDAY, 23 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 177",
+      "FamilyName": "CLIENT 177",
+      "Gender": "",
+      "PhoneNumber": "0550 77 39 01",
+      "LastDebtAt": "2026-06-22T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-22T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "MONDAY, 22 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 24749,
+      "Name": "CLIENT 177 Pr\u00E9nom 177",
+      "LastDebt": "MONDAY, 22 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 178",
+      "FamilyName": "CLIENT 178",
+      "Gender": "",
+      "PhoneNumber": "0550 78 46 14",
+      "LastDebtAt": "2026-06-21T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-21T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "SUNDAY, 21 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 24886,
+      "Name": "CLIENT 178 Pr\u00E9nom 178",
+      "LastDebt": "SUNDAY, 21 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 179",
+      "FamilyName": "CLIENT 179",
+      "Gender": "",
+      "PhoneNumber": "0550 79 53 27",
+      "LastDebtAt": "2026-06-20T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-20T00:00:00",
+          "CreatedBy": {
+            "Name": "Samira",
+            "Email": ""
+          },
+          "DebtDate": "SATURDAY, 20 JUNE 2026 | 00:00",
+          "User": "Samira",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 25023,
+      "Name": "CLIENT 179 Pr\u00E9nom 179",
+      "LastDebt": "SATURDAY, 20 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Samira"
+    },
+    {
+      "FirstName": "Pr\u00E9nom 180",
+      "FamilyName": "CLIENT 180",
+      "Gender": "",
+      "PhoneNumber": "0550 80 60 40",
+      "LastDebtAt": "2026-06-19T00:00:00",
+      "CreatedAt": "0001-01-01T00:00:00",
+      "DebtPaymentInfo": [
+        {
+          "Amount": 0,
+          "Status": "",
+          "Date": "2026-06-19T00:00:00",
+          "CreatedBy": {
+            "Name": "Khadidja",
+            "Email": ""
+          },
+          "DebtDate": "FRIDAY, 19 JUNE 2026 | 00:00",
+          "User": "Khadidja",
+          "Type": "\u003Ccolor=\u0027red\u0027\u003EDETTE SORTIE\u003C/color\u003E"
+        }
+      ],
+      "DebtAmount": 25160,
+      "Name": "CLIENT 180 Pr\u00E9nom 180",
+      "LastDebt": "FRIDAY, 19 JUNE 2026 | 00:00",
+      "CreationDate": "MONDAY, 01 JANUARY 0001 | 00:00",
+      "Debts": [],
+      "CreatedBy": "Khadidja"
+    }
+  ],
+  "TotalDebt": 2321730,
+  "ClientCount": 180
+}

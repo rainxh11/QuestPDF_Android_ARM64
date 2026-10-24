@@ -1,0 +1,6 @@
+[
+  {"name":"merged-false-false"},
+  {"name":"merged-false-true","pdfua":true},
+  {"name":"merged-true-false"},
+  {"name":"merged-true-true","pdfua":true}
+]

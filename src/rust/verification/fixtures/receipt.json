@@ -1,0 +1,61 @@
+{
+  "IsDebtReceipt": false,
+  "ClientName": "CHETTIH SOUAD",
+  "ClientPhone": "0550 12 34 56",
+  "PaidBy": "Khadidja",
+  "PaidAt": "2026-07-13T10:25:28+01:00",
+  "QrCode": "https://50lab-ris.local/command-center?client=507f1f77bcf86cd799439011",
+  "Exams": [
+    {
+      "Id": 162335,
+      "CreatedAt": "2026-07-13T10:25:00+01:00",
+      "Exam": "ECHO - ECHOGRAPHIE DES PARTIES MOLLES",
+      "Price": 2500
+    },
+    {
+      "Id": 162336,
+      "CreatedAt": "2026-07-13T10:25:30+01:00",
+      "Exam": "ECHO - ECHOGRAPHIE ABDOMINO-PELVIENNE",
+      "Price": 2000
+    },
+    {
+      "Id": 162349,
+      "CreatedAt": "2026-07-13T11:38:00+01:00",
+      "Exam": "ECHO - ECHOGRAPHIE MAMMAIRE",
+      "Price": 2000
+    }
+  ],
+  "Products": [
+    {
+      "Name": "Gel \u00E9chographique",
+      "Price": 150,
+      "Quantity": 2,
+      "Subtotal": 300
+    },
+    {
+      "Name": "Gants m\u00E9dicaux",
+      "Price": 50,
+      "Quantity": 1,
+      "Subtotal": 50
+    }
+  ],
+  "Transactions": [
+    {
+      "Date": "2026-07-13T10:25:28+01:00",
+      "Amount": 2000,
+      "Status": "out",
+      "CreatedBy": "Khadidja"
+    },
+    {
+      "Date": "2026-07-13T13:15:00+01:00",
+      "Amount": 750,
+      "Status": "in",
+      "CreatedBy": "Khadidja"
+    }
+  ],
+  "TotalPrice": 6500,
+  "Discount": 500,
+  "ConventionDiscount": 250,
+  "PaidAmount": 5750,
+  "RemainingDebt": 1250
+}

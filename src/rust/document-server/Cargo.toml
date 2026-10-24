@@ -1,0 +1,21 @@
+[package]
+name = "ris-document-server"
+version.workspace = true
+edition.workspace = true
+license-file = "../LICENSE.md"
+
+[lib]
+name = "ris_document_reports"
+crate-type = ["rlib", "cdylib"]
+
+[dependencies]
+questpdf = { path = "../questpdf" }
+anyhow.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+chrono.workspace = true
+qrcodegen = "1.8"
+libc = "0.2"
+image = { version = "0.25", default-features = false, features = ["png"] }
+rust_decimal = { version = "1", features = ["serde-with-arbitrary-precision"] }
+

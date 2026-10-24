@@ -1,0 +1,2437 @@
+{
+  "Studies": [
+    {
+      "Id": 160001,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 1525,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T08:07:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-1",
+        "FirstName": "Pr\u00E9nom 1",
+        "FamilyName": "PATIENT 001",
+        "PhoneNumber": "",
+        "Name": "PATIENT 001 Pr\u00E9nom 1"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160002,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 1550,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T08:14:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-2",
+        "FirstName": "Pr\u00E9nom 2",
+        "FamilyName": "PATIENT 002",
+        "PhoneNumber": "",
+        "Name": "PATIENT 002 Pr\u00E9nom 2"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160003,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 1575,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T08:21:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-3",
+        "FirstName": "Pr\u00E9nom 3",
+        "FamilyName": "PATIENT 003",
+        "PhoneNumber": "",
+        "Name": "PATIENT 003 Pr\u00E9nom 3"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160004,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 1600,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T08:28:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-4",
+        "FirstName": "Pr\u00E9nom 4",
+        "FamilyName": "PATIENT 004",
+        "PhoneNumber": "",
+        "Name": "PATIENT 004 Pr\u00E9nom 4"
+      },
+      "Products": [
+        {
+          "Name": "Gel \u00E9chographique",
+          "Price": 100,
+          "QuantityP": 1
+        }
+      ]
+    },
+    {
+      "Id": 160005,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": 100,
+      "Price": 1625,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T08:35:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-5",
+        "FirstName": "Pr\u00E9nom 5",
+        "FamilyName": "PATIENT 005",
+        "PhoneNumber": "",
+        "Name": "PATIENT 005 Pr\u00E9nom 5"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160006,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 1650,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T08:42:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-6",
+        "FirstName": "Pr\u00E9nom 6",
+        "FamilyName": "PATIENT 006",
+        "PhoneNumber": "",
+        "Name": "PATIENT 006 Pr\u00E9nom 6"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160007,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 1675,
+      "Conv": "CNAS",
+      "ConvPrice": 1200,
+      "PaidAt": "2026-07-02T08:49:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-7",
+        "FirstName": "Pr\u00E9nom 7",
+        "FamilyName": "PATIENT 007",
+        "PhoneNumber": "",
+        "Name": "PATIENT 007 Pr\u00E9nom 7"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160008,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 1700,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T08:56:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-8",
+        "FirstName": "Pr\u00E9nom 8",
+        "FamilyName": "PATIENT 008",
+        "PhoneNumber": "",
+        "Name": "PATIENT 008 Pr\u00E9nom 8"
+      },
+      "Products": [
+        {
+          "Name": "Gel \u00E9chographique",
+          "Price": 100,
+          "QuantityP": 1
+        }
+      ]
+    },
+    {
+      "Id": 160009,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 1725,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T09:03:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-9",
+        "FirstName": "Pr\u00E9nom 9",
+        "FamilyName": "PATIENT 009",
+        "PhoneNumber": "",
+        "Name": "PATIENT 009 Pr\u00E9nom 9"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160010,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": 100,
+      "Price": 1750,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T09:10:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-10",
+        "FirstName": "Pr\u00E9nom 10",
+        "FamilyName": "PATIENT 010",
+        "PhoneNumber": "",
+        "Name": "PATIENT 010 Pr\u00E9nom 10"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160011,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 1775,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T09:17:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-11",
+        "FirstName": "Pr\u00E9nom 11",
+        "FamilyName": "PATIENT 011",
+        "PhoneNumber": "",
+        "Name": "PATIENT 011 Pr\u00E9nom 11"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160012,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 1800,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T09:24:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-12",
+        "FirstName": "Pr\u00E9nom 12",
+        "FamilyName": "PATIENT 012",
+        "PhoneNumber": "",
+        "Name": "PATIENT 012 Pr\u00E9nom 12"
+      },
+      "Products": [
+        {
+          "Name": "Gel \u00E9chographique",
+          "Price": 100,
+          "QuantityP": 1
+        }
+      ]
+    },
+    {
+      "Id": 160013,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 1825,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T09:31:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-13",
+        "FirstName": "Pr\u00E9nom 13",
+        "FamilyName": "PATIENT 013",
+        "PhoneNumber": "",
+        "Name": "PATIENT 013 Pr\u00E9nom 13"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160014,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 1850,
+      "Conv": "CNAS",
+      "ConvPrice": 1200,
+      "PaidAt": "2026-07-01T09:38:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-14",
+        "FirstName": "Pr\u00E9nom 14",
+        "FamilyName": "PATIENT 014",
+        "PhoneNumber": "",
+        "Name": "PATIENT 014 Pr\u00E9nom 14"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160015,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": 100,
+      "Price": 1875,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T09:45:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-15",
+        "FirstName": "Pr\u00E9nom 15",
+        "FamilyName": "PATIENT 015",
+        "PhoneNumber": "",
+        "Name": "PATIENT 015 Pr\u00E9nom 15"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160016,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 1900,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T09:52:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-16",
+        "FirstName": "Pr\u00E9nom 16",
+        "FamilyName": "PATIENT 016",
+        "PhoneNumber": "",
+        "Name": "PATIENT 016 Pr\u00E9nom 16"
+      },
+      "Products": [
+        {
+          "Name": "Gel \u00E9chographique",
+          "Price": 100,
+          "QuantityP": 1
+        }
+      ]
+    },
+    {
+      "Id": 160017,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 1925,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T09:59:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-17",
+        "FirstName": "Pr\u00E9nom 17",
+        "FamilyName": "PATIENT 017",
+        "PhoneNumber": "",
+        "Name": "PATIENT 017 Pr\u00E9nom 17"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160018,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 1950,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T10:06:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-18",
+        "FirstName": "Pr\u00E9nom 18",
+        "FamilyName": "PATIENT 018",
+        "PhoneNumber": "",
+        "Name": "PATIENT 018 Pr\u00E9nom 18"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160019,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 1975,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T10:13:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-19",
+        "FirstName": "Pr\u00E9nom 19",
+        "FamilyName": "PATIENT 019",
+        "PhoneNumber": "",
+        "Name": "PATIENT 019 Pr\u00E9nom 19"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160020,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": 100,
+      "Price": 2000,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T10:20:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-20",
+        "FirstName": "Pr\u00E9nom 20",
+        "FamilyName": "PATIENT 020",
+        "PhoneNumber": "",
+        "Name": "PATIENT 020 Pr\u00E9nom 20"
+      },
+      "Products": [
+        {
+          "Name": "Gel \u00E9chographique",
+          "Price": 100,
+          "QuantityP": 1
+        }
+      ]
+    },
+    {
+      "Id": 160021,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 2025,
+      "Conv": "CNAS",
+      "ConvPrice": 1200,
+      "PaidAt": "2026-07-03T10:27:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-21",
+        "FirstName": "Pr\u00E9nom 21",
+        "FamilyName": "PATIENT 021",
+        "PhoneNumber": "",
+        "Name": "PATIENT 021 Pr\u00E9nom 21"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160022,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 2050,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T10:34:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-22",
+        "FirstName": "Pr\u00E9nom 22",
+        "FamilyName": "PATIENT 022",
+        "PhoneNumber": "",
+        "Name": "PATIENT 022 Pr\u00E9nom 22"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160023,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 2075,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T10:41:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-23",
+        "FirstName": "Pr\u00E9nom 23",
+        "FamilyName": "PATIENT 023",
+        "PhoneNumber": "",
+        "Name": "PATIENT 023 Pr\u00E9nom 23"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160024,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 2100,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T10:48:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-24",
+        "FirstName": "Pr\u00E9nom 24",
+        "FamilyName": "PATIENT 024",
+        "PhoneNumber": "",
+        "Name": "PATIENT 024 Pr\u00E9nom 24"
+      },
+      "Products": [
+        {
+          "Name": "Gel \u00E9chographique",
+          "Price": 100,
+          "QuantityP": 1
+        }
+      ]
+    },
+    {
+      "Id": 160025,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": 100,
+      "Price": 2125,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T10:55:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-25",
+        "FirstName": "Pr\u00E9nom 25",
+        "FamilyName": "PATIENT 025",
+        "PhoneNumber": "",
+        "Name": "PATIENT 025 Pr\u00E9nom 25"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160026,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 2150,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T11:02:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-26",
+        "FirstName": "Pr\u00E9nom 26",
+        "FamilyName": "PATIENT 026",
+        "PhoneNumber": "",
+        "Name": "PATIENT 026 Pr\u00E9nom 26"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160027,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 2175,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T11:09:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-27",
+        "FirstName": "Pr\u00E9nom 27",
+        "FamilyName": "PATIENT 027",
+        "PhoneNumber": "",
+        "Name": "PATIENT 027 Pr\u00E9nom 27"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160028,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 2200,
+      "Conv": "CNAS",
+      "ConvPrice": 1200,
+      "PaidAt": "2026-07-02T11:16:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-28",
+        "FirstName": "Pr\u00E9nom 28",
+        "FamilyName": "PATIENT 028",
+        "PhoneNumber": "",
+        "Name": "PATIENT 028 Pr\u00E9nom 28"
+      },
+      "Products": [
+        {
+          "Name": "Gel \u00E9chographique",
+          "Price": 100,
+          "QuantityP": 1
+        }
+      ]
+    },
+    {
+      "Id": 160029,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 2225,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T11:23:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-29",
+        "FirstName": "Pr\u00E9nom 29",
+        "FamilyName": "PATIENT 029",
+        "PhoneNumber": "",
+        "Name": "PATIENT 029 Pr\u00E9nom 29"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160030,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": 100,
+      "Price": 2250,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T11:30:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-30",
+        "FirstName": "Pr\u00E9nom 30",
+        "FamilyName": "PATIENT 030",
+        "PhoneNumber": "",
+        "Name": "PATIENT 030 Pr\u00E9nom 30"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160031,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 2275,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T11:37:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-31",
+        "FirstName": "Pr\u00E9nom 31",
+        "FamilyName": "PATIENT 031",
+        "PhoneNumber": "",
+        "Name": "PATIENT 031 Pr\u00E9nom 31"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160032,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 2300,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T11:44:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-32",
+        "FirstName": "Pr\u00E9nom 32",
+        "FamilyName": "PATIENT 032",
+        "PhoneNumber": "",
+        "Name": "PATIENT 032 Pr\u00E9nom 32"
+      },
+      "Products": [
+        {
+          "Name": "Gel \u00E9chographique",
+          "Price": 100,
+          "QuantityP": 1
+        }
+      ]
+    },
+    {
+      "Id": 160033,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 2325,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T11:51:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-33",
+        "FirstName": "Pr\u00E9nom 33",
+        "FamilyName": "PATIENT 033",
+        "PhoneNumber": "",
+        "Name": "PATIENT 033 Pr\u00E9nom 33"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160034,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 2350,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T11:58:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-34",
+        "FirstName": "Pr\u00E9nom 34",
+        "FamilyName": "PATIENT 034",
+        "PhoneNumber": "",
+        "Name": "PATIENT 034 Pr\u00E9nom 34"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160035,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": 100,
+      "Price": 2375,
+      "Conv": "CNAS",
+      "ConvPrice": 1200,
+      "PaidAt": "2026-07-01T12:05:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-35",
+        "FirstName": "Pr\u00E9nom 35",
+        "FamilyName": "PATIENT 035",
+        "PhoneNumber": "",
+        "Name": "PATIENT 035 Pr\u00E9nom 35"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160036,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 2400,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T12:12:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-36",
+        "FirstName": "Pr\u00E9nom 36",
+        "FamilyName": "PATIENT 036",
+        "PhoneNumber": "",
+        "Name": "PATIENT 036 Pr\u00E9nom 36"
+      },
+      "Products": [
+        {
+          "Name": "Gel \u00E9chographique",
+          "Price": 100,
+          "QuantityP": 1
+        }
+      ]
+    },
+    {
+      "Id": 160037,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 2425,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T12:19:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-37",
+        "FirstName": "Pr\u00E9nom 37",
+        "FamilyName": "PATIENT 037",
+        "PhoneNumber": "",
+        "Name": "PATIENT 037 Pr\u00E9nom 37"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160038,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 2450,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T12:26:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-38",
+        "FirstName": "Pr\u00E9nom 38",
+        "FamilyName": "PATIENT 038",
+        "PhoneNumber": "",
+        "Name": "PATIENT 038 Pr\u00E9nom 38"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160039,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 2475,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T12:33:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-39",
+        "FirstName": "Pr\u00E9nom 39",
+        "FamilyName": "PATIENT 039",
+        "PhoneNumber": "",
+        "Name": "PATIENT 039 Pr\u00E9nom 39"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160040,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": 100,
+      "Price": 2500,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T12:40:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-40",
+        "FirstName": "Pr\u00E9nom 40",
+        "FamilyName": "PATIENT 040",
+        "PhoneNumber": "",
+        "Name": "PATIENT 040 Pr\u00E9nom 40"
+      },
+      "Products": [
+        {
+          "Name": "Gel \u00E9chographique",
+          "Price": 100,
+          "QuantityP": 1
+        }
+      ]
+    },
+    {
+      "Id": 160041,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 2525,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T12:47:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-41",
+        "FirstName": "Pr\u00E9nom 41",
+        "FamilyName": "PATIENT 041",
+        "PhoneNumber": "",
+        "Name": "PATIENT 041 Pr\u00E9nom 41"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160042,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 2550,
+      "Conv": "CNAS",
+      "ConvPrice": 1200,
+      "PaidAt": "2026-07-03T12:54:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-42",
+        "FirstName": "Pr\u00E9nom 42",
+        "FamilyName": "PATIENT 042",
+        "PhoneNumber": "",
+        "Name": "PATIENT 042 Pr\u00E9nom 42"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160043,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 2575,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T13:01:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-43",
+        "FirstName": "Pr\u00E9nom 43",
+        "FamilyName": "PATIENT 043",
+        "PhoneNumber": "",
+        "Name": "PATIENT 043 Pr\u00E9nom 43"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160044,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 2600,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T13:08:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-44",
+        "FirstName": "Pr\u00E9nom 44",
+        "FamilyName": "PATIENT 044",
+        "PhoneNumber": "",
+        "Name": "PATIENT 044 Pr\u00E9nom 44"
+      },
+      "Products": [
+        {
+          "Name": "Gel \u00E9chographique",
+          "Price": 100,
+          "QuantityP": 1
+        }
+      ]
+    },
+    {
+      "Id": 160045,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": 100,
+      "Price": 2625,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T13:15:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-45",
+        "FirstName": "Pr\u00E9nom 45",
+        "FamilyName": "PATIENT 045",
+        "PhoneNumber": "",
+        "Name": "PATIENT 045 Pr\u00E9nom 45"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160046,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 2650,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T13:22:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-46",
+        "FirstName": "Pr\u00E9nom 46",
+        "FamilyName": "PATIENT 046",
+        "PhoneNumber": "",
+        "Name": "PATIENT 046 Pr\u00E9nom 46"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160047,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 2675,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T13:29:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-47",
+        "FirstName": "Pr\u00E9nom 47",
+        "FamilyName": "PATIENT 047",
+        "PhoneNumber": "",
+        "Name": "PATIENT 047 Pr\u00E9nom 47"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160048,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 2700,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T13:36:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-48",
+        "FirstName": "Pr\u00E9nom 48",
+        "FamilyName": "PATIENT 048",
+        "PhoneNumber": "",
+        "Name": "PATIENT 048 Pr\u00E9nom 48"
+      },
+      "Products": [
+        {
+          "Name": "Gel \u00E9chographique",
+          "Price": 100,
+          "QuantityP": 1
+        }
+      ]
+    },
+    {
+      "Id": 160049,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 2725,
+      "Conv": "CNAS",
+      "ConvPrice": 1200,
+      "PaidAt": "2026-07-02T13:43:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-49",
+        "FirstName": "Pr\u00E9nom 49",
+        "FamilyName": "PATIENT 049",
+        "PhoneNumber": "",
+        "Name": "PATIENT 049 Pr\u00E9nom 49"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160050,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": 100,
+      "Price": 2750,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T13:50:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-50",
+        "FirstName": "Pr\u00E9nom 50",
+        "FamilyName": "PATIENT 050",
+        "PhoneNumber": "",
+        "Name": "PATIENT 050 Pr\u00E9nom 50"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160051,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 2775,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T13:57:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-51",
+        "FirstName": "Pr\u00E9nom 51",
+        "FamilyName": "PATIENT 051",
+        "PhoneNumber": "",
+        "Name": "PATIENT 051 Pr\u00E9nom 51"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160052,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 2800,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T14:04:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-52",
+        "FirstName": "Pr\u00E9nom 52",
+        "FamilyName": "PATIENT 052",
+        "PhoneNumber": "",
+        "Name": "PATIENT 052 Pr\u00E9nom 52"
+      },
+      "Products": [
+        {
+          "Name": "Gel \u00E9chographique",
+          "Price": 100,
+          "QuantityP": 1
+        }
+      ]
+    },
+    {
+      "Id": 160053,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 2825,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T14:11:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-53",
+        "FirstName": "Pr\u00E9nom 53",
+        "FamilyName": "PATIENT 053",
+        "PhoneNumber": "",
+        "Name": "PATIENT 053 Pr\u00E9nom 53"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160054,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 2850,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T14:18:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-54",
+        "FirstName": "Pr\u00E9nom 54",
+        "FamilyName": "PATIENT 054",
+        "PhoneNumber": "",
+        "Name": "PATIENT 054 Pr\u00E9nom 54"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160055,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": 100,
+      "Price": 2875,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T14:25:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-55",
+        "FirstName": "Pr\u00E9nom 55",
+        "FamilyName": "PATIENT 055",
+        "PhoneNumber": "",
+        "Name": "PATIENT 055 Pr\u00E9nom 55"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160056,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 2900,
+      "Conv": "CNAS",
+      "ConvPrice": 1200,
+      "PaidAt": "2026-07-01T14:32:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-56",
+        "FirstName": "Pr\u00E9nom 56",
+        "FamilyName": "PATIENT 056",
+        "PhoneNumber": "",
+        "Name": "PATIENT 056 Pr\u00E9nom 56"
+      },
+      "Products": [
+        {
+          "Name": "Gel \u00E9chographique",
+          "Price": 100,
+          "QuantityP": 1
+        }
+      ]
+    },
+    {
+      "Id": 160057,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 2925,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T14:39:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-57",
+        "FirstName": "Pr\u00E9nom 57",
+        "FamilyName": "PATIENT 057",
+        "PhoneNumber": "",
+        "Name": "PATIENT 057 Pr\u00E9nom 57"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160058,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 2950,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T14:46:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-58",
+        "FirstName": "Pr\u00E9nom 58",
+        "FamilyName": "PATIENT 058",
+        "PhoneNumber": "",
+        "Name": "PATIENT 058 Pr\u00E9nom 58"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160059,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 2975,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T14:53:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-59",
+        "FirstName": "Pr\u00E9nom 59",
+        "FamilyName": "PATIENT 059",
+        "PhoneNumber": "",
+        "Name": "PATIENT 059 Pr\u00E9nom 59"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160060,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": 100,
+      "Price": 3000,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T15:00:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-60",
+        "FirstName": "Pr\u00E9nom 60",
+        "FamilyName": "PATIENT 060",
+        "PhoneNumber": "",
+        "Name": "PATIENT 060 Pr\u00E9nom 60"
+      },
+      "Products": [
+        {
+          "Name": "Gel \u00E9chographique",
+          "Price": 100,
+          "QuantityP": 1
+        }
+      ]
+    },
+    {
+      "Id": 160061,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 3025,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T15:07:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-61",
+        "FirstName": "Pr\u00E9nom 61",
+        "FamilyName": "PATIENT 061",
+        "PhoneNumber": "",
+        "Name": "PATIENT 061 Pr\u00E9nom 61"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160062,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 3050,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T15:14:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-62",
+        "FirstName": "Pr\u00E9nom 62",
+        "FamilyName": "PATIENT 062",
+        "PhoneNumber": "",
+        "Name": "PATIENT 062 Pr\u00E9nom 62"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160063,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 3075,
+      "Conv": "CNAS",
+      "ConvPrice": 1200,
+      "PaidAt": "2026-07-03T15:21:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-63",
+        "FirstName": "Pr\u00E9nom 63",
+        "FamilyName": "PATIENT 063",
+        "PhoneNumber": "",
+        "Name": "PATIENT 063 Pr\u00E9nom 63"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160064,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 3100,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T15:28:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-64",
+        "FirstName": "Pr\u00E9nom 64",
+        "FamilyName": "PATIENT 064",
+        "PhoneNumber": "",
+        "Name": "PATIENT 064 Pr\u00E9nom 64"
+      },
+      "Products": [
+        {
+          "Name": "Gel \u00E9chographique",
+          "Price": 100,
+          "QuantityP": 1
+        }
+      ]
+    },
+    {
+      "Id": 160065,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": 100,
+      "Price": 3125,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T15:35:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-65",
+        "FirstName": "Pr\u00E9nom 65",
+        "FamilyName": "PATIENT 065",
+        "PhoneNumber": "",
+        "Name": "PATIENT 065 Pr\u00E9nom 65"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160066,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 3150,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T15:42:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-66",
+        "FirstName": "Pr\u00E9nom 66",
+        "FamilyName": "PATIENT 066",
+        "PhoneNumber": "",
+        "Name": "PATIENT 066 Pr\u00E9nom 66"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160067,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 3175,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T15:49:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-67",
+        "FirstName": "Pr\u00E9nom 67",
+        "FamilyName": "PATIENT 067",
+        "PhoneNumber": "",
+        "Name": "PATIENT 067 Pr\u00E9nom 67"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160068,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 3200,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T15:56:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-68",
+        "FirstName": "Pr\u00E9nom 68",
+        "FamilyName": "PATIENT 068",
+        "PhoneNumber": "",
+        "Name": "PATIENT 068 Pr\u00E9nom 68"
+      },
+      "Products": [
+        {
+          "Name": "Gel \u00E9chographique",
+          "Price": 100,
+          "QuantityP": 1
+        }
+      ]
+    },
+    {
+      "Id": 160069,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 3225,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T16:03:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-69",
+        "FirstName": "Pr\u00E9nom 69",
+        "FamilyName": "PATIENT 069",
+        "PhoneNumber": "",
+        "Name": "PATIENT 069 Pr\u00E9nom 69"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160070,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": 100,
+      "Price": 3250,
+      "Conv": "CNAS",
+      "ConvPrice": 1200,
+      "PaidAt": "2026-07-02T16:10:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-70",
+        "FirstName": "Pr\u00E9nom 70",
+        "FamilyName": "PATIENT 070",
+        "PhoneNumber": "",
+        "Name": "PATIENT 070 Pr\u00E9nom 70"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160071,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 3275,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T16:17:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-71",
+        "FirstName": "Pr\u00E9nom 71",
+        "FamilyName": "PATIENT 071",
+        "PhoneNumber": "",
+        "Name": "PATIENT 071 Pr\u00E9nom 71"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160072,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 3300,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T16:24:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-72",
+        "FirstName": "Pr\u00E9nom 72",
+        "FamilyName": "PATIENT 072",
+        "PhoneNumber": "",
+        "Name": "PATIENT 072 Pr\u00E9nom 72"
+      },
+      "Products": [
+        {
+          "Name": "Gel \u00E9chographique",
+          "Price": 100,
+          "QuantityP": 1
+        }
+      ]
+    },
+    {
+      "Id": 160073,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 3325,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T16:31:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-73",
+        "FirstName": "Pr\u00E9nom 73",
+        "FamilyName": "PATIENT 073",
+        "PhoneNumber": "",
+        "Name": "PATIENT 073 Pr\u00E9nom 73"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160074,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 3350,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T16:38:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-74",
+        "FirstName": "Pr\u00E9nom 74",
+        "FamilyName": "PATIENT 074",
+        "PhoneNumber": "",
+        "Name": "PATIENT 074 Pr\u00E9nom 74"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160075,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": 100,
+      "Price": 3375,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T16:45:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-75",
+        "FirstName": "Pr\u00E9nom 75",
+        "FamilyName": "PATIENT 075",
+        "PhoneNumber": "",
+        "Name": "PATIENT 075 Pr\u00E9nom 75"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160076,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 3400,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T16:52:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-76",
+        "FirstName": "Pr\u00E9nom 76",
+        "FamilyName": "PATIENT 076",
+        "PhoneNumber": "",
+        "Name": "PATIENT 076 Pr\u00E9nom 76"
+      },
+      "Products": [
+        {
+          "Name": "Gel \u00E9chographique",
+          "Price": 100,
+          "QuantityP": 1
+        }
+      ]
+    },
+    {
+      "Id": 160077,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 3425,
+      "Conv": "CNAS",
+      "ConvPrice": 1200,
+      "PaidAt": "2026-07-01T16:59:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-77",
+        "FirstName": "Pr\u00E9nom 77",
+        "FamilyName": "PATIENT 077",
+        "PhoneNumber": "",
+        "Name": "PATIENT 077 Pr\u00E9nom 77"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160078,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 3450,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T17:06:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-78",
+        "FirstName": "Pr\u00E9nom 78",
+        "FamilyName": "PATIENT 078",
+        "PhoneNumber": "",
+        "Name": "PATIENT 078 Pr\u00E9nom 78"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160079,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 3475,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T17:13:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-79",
+        "FirstName": "Pr\u00E9nom 79",
+        "FamilyName": "PATIENT 079",
+        "PhoneNumber": "",
+        "Name": "PATIENT 079 Pr\u00E9nom 79"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160080,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": 100,
+      "Price": 3500,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T17:20:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-80",
+        "FirstName": "Pr\u00E9nom 80",
+        "FamilyName": "PATIENT 080",
+        "PhoneNumber": "",
+        "Name": "PATIENT 080 Pr\u00E9nom 80"
+      },
+      "Products": [
+        {
+          "Name": "Gel \u00E9chographique",
+          "Price": 100,
+          "QuantityP": 1
+        }
+      ]
+    },
+    {
+      "Id": 160081,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 3525,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T17:27:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-81",
+        "FirstName": "Pr\u00E9nom 81",
+        "FamilyName": "PATIENT 081",
+        "PhoneNumber": "",
+        "Name": "PATIENT 081 Pr\u00E9nom 81"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160082,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 3550,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T17:34:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-82",
+        "FirstName": "Pr\u00E9nom 82",
+        "FamilyName": "PATIENT 082",
+        "PhoneNumber": "",
+        "Name": "PATIENT 082 Pr\u00E9nom 82"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160083,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 3575,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T17:41:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-83",
+        "FirstName": "Pr\u00E9nom 83",
+        "FamilyName": "PATIENT 083",
+        "PhoneNumber": "",
+        "Name": "PATIENT 083 Pr\u00E9nom 83"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160084,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 3600,
+      "Conv": "CNAS",
+      "ConvPrice": 1200,
+      "PaidAt": "2026-07-03T17:48:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-84",
+        "FirstName": "Pr\u00E9nom 84",
+        "FamilyName": "PATIENT 084",
+        "PhoneNumber": "",
+        "Name": "PATIENT 084 Pr\u00E9nom 84"
+      },
+      "Products": [
+        {
+          "Name": "Gel \u00E9chographique",
+          "Price": 100,
+          "QuantityP": 1
+        }
+      ]
+    },
+    {
+      "Id": 160085,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": 100,
+      "Price": 3625,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T17:55:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-85",
+        "FirstName": "Pr\u00E9nom 85",
+        "FamilyName": "PATIENT 085",
+        "PhoneNumber": "",
+        "Name": "PATIENT 085 Pr\u00E9nom 85"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160086,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 3650,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T18:02:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-86",
+        "FirstName": "Pr\u00E9nom 86",
+        "FamilyName": "PATIENT 086",
+        "PhoneNumber": "",
+        "Name": "PATIENT 086 Pr\u00E9nom 86"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160087,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 3675,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T18:09:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-87",
+        "FirstName": "Pr\u00E9nom 87",
+        "FamilyName": "PATIENT 087",
+        "PhoneNumber": "",
+        "Name": "PATIENT 087 Pr\u00E9nom 87"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160088,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 3700,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T18:16:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-88",
+        "FirstName": "Pr\u00E9nom 88",
+        "FamilyName": "PATIENT 088",
+        "PhoneNumber": "",
+        "Name": "PATIENT 088 Pr\u00E9nom 88"
+      },
+      "Products": [
+        {
+          "Name": "Gel \u00E9chographique",
+          "Price": 100,
+          "QuantityP": 1
+        }
+      ]
+    },
+    {
+      "Id": 160089,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 3725,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T18:23:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-89",
+        "FirstName": "Pr\u00E9nom 89",
+        "FamilyName": "PATIENT 089",
+        "PhoneNumber": "",
+        "Name": "PATIENT 089 Pr\u00E9nom 89"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160090,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": 100,
+      "Price": 3750,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T18:30:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-90",
+        "FirstName": "Pr\u00E9nom 90",
+        "FamilyName": "PATIENT 090",
+        "PhoneNumber": "",
+        "Name": "PATIENT 090 Pr\u00E9nom 90"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160091,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 3775,
+      "Conv": "CNAS",
+      "ConvPrice": 1200,
+      "PaidAt": "2026-07-02T18:37:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-91",
+        "FirstName": "Pr\u00E9nom 91",
+        "FamilyName": "PATIENT 091",
+        "PhoneNumber": "",
+        "Name": "PATIENT 091 Pr\u00E9nom 91"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160092,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 3800,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T18:44:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-92",
+        "FirstName": "Pr\u00E9nom 92",
+        "FamilyName": "PATIENT 092",
+        "PhoneNumber": "",
+        "Name": "PATIENT 092 Pr\u00E9nom 92"
+      },
+      "Products": [
+        {
+          "Name": "Gel \u00E9chographique",
+          "Price": 100,
+          "QuantityP": 1
+        }
+      ]
+    },
+    {
+      "Id": 160093,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": null,
+      "Price": 3825,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T18:51:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-93",
+        "FirstName": "Pr\u00E9nom 93",
+        "FamilyName": "PATIENT 093",
+        "PhoneNumber": "",
+        "Name": "PATIENT 093 Pr\u00E9nom 93"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160094,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 3850,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-02T18:58:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-94",
+        "FirstName": "Pr\u00E9nom 94",
+        "FamilyName": "PATIENT 094",
+        "PhoneNumber": "",
+        "Name": "PATIENT 094 Pr\u00E9nom 94"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160095,
+      "StatusPayment": "",
+      "ExamType": "Radiographie thoracique",
+      "Modality": "RX",
+      "Discount": 100,
+      "Price": 3875,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-01T19:05:00",
+      "PaidBy": {
+        "Name": "Samira",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-95",
+        "FirstName": "Pr\u00E9nom 95",
+        "FamilyName": "PATIENT 095",
+        "PhoneNumber": "",
+        "Name": "PATIENT 095 Pr\u00E9nom 95"
+      },
+      "Products": []
+    },
+    {
+      "Id": 160096,
+      "StatusPayment": "",
+      "ExamType": "\u00C9chographie abdominale",
+      "Modality": "ECHO",
+      "Discount": null,
+      "Price": 3900,
+      "Conv": "normal",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T19:12:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "client-96",
+        "FirstName": "Pr\u00E9nom 96",
+        "FamilyName": "PATIENT 096",
+        "PhoneNumber": "",
+        "Name": "PATIENT 096 Pr\u00E9nom 96"
+      },
+      "Products": [
+        {
+          "Name": "Gel \u00E9chographique",
+          "Price": 100,
+          "QuantityP": 1
+        }
+      ]
+    },
+    {
+      "Id": 165612,
+      "StatusPayment": "debt",
+      "ExamType": "BIL IRM",
+      "Modality": "CBI",
+      "Discount": null,
+      "Price": 3000,
+      "Conv": "",
+      "ConvPrice": null,
+      "PaidAt": "2026-07-03T08:23:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "debt-client",
+        "FirstName": "FATTOUM",
+        "FamilyName": "ATTIA",
+        "PhoneNumber": "",
+        "Name": "ATTIA FATTOUM"
+      },
+      "Products": []
+    }
+  ],
+  "DebtPayments": [
+    {
+      "Amount": 3000,
+      "Status": "out",
+      "PaidAt": "2026-07-03T08:23:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "debt-client",
+        "FirstName": "FATTOUM",
+        "FamilyName": "ATTIA",
+        "PhoneNumber": "",
+        "Name": "ATTIA FATTOUM"
+      }
+    },
+    {
+      "Amount": 500,
+      "Status": "discount",
+      "PaidAt": "2026-07-03T08:24:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "debt-client",
+        "FirstName": "FATTOUM",
+        "FamilyName": "ATTIA",
+        "PhoneNumber": "",
+        "Name": "ATTIA FATTOUM"
+      }
+    },
+    {
+      "Amount": 1500,
+      "Status": "in",
+      "PaidAt": "2026-07-03T08:25:00",
+      "PaidBy": {
+        "Name": "Khadidja",
+        "Email": ""
+      },
+      "Client": {
+        "Id": "debt-client",
+        "FirstName": "FATTOUM",
+        "FamilyName": "ATTIA",
+        "PhoneNumber": "",
+        "Name": "ATTIA FATTOUM"
+      }
+    }
+  ],
+  "StartDate": "2026-07-01T00:00:00",
+  "EndDate": "2026-07-03T00:00:00",
+  "AllTime": false,
+  "Period": "01 JUIL. 2026 - 03 JUIL. 2026",
+  "TotalPaid": 261900,
+  "TotalCount": 96,
+  "DebtPaymentCount": 1,
+  "TotalDetails": "261,900.00 D.A (96 examens \u002B 1 paiement de dette)"
+}

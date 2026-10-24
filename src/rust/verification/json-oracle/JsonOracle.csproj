@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable></PropertyGroup>
+  <ItemGroup><PackageReference Include="QuestPDF" Version="2026.9.1" /><PackageReference Include="ZXing.Net" Version="0.16.11" /><PackageReference Include="ESCPOS_NET" Version="3.0.0" /><PackageReference Include="SixLabors.ImageSharp" Version="2.1.13" /></ItemGroup>
+  <ItemGroup><Compile Include="../artifacts/oracle-project/*.cs" Exclude="../artifacts/oracle-project/Program.cs" /></ItemGroup>
+  <ItemGroup><Content Include="../../document-server/assets/*" Link="Assets/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" /></ItemGroup>
+</Project>

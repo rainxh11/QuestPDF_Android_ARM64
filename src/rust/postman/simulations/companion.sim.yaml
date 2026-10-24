@@ -1,0 +1,5 @@
+simulation: questpdf-companion-v3
+routing: path
+mocks:
+  - routeKey: companion
+    path: ../mocks/companion/config.yaml
